@@ -22,7 +22,7 @@ jobs:
           node-version: '20'
 
       - name: Sync content.json
-        run: python3 generate.py
+        run: cp content.json website/src/content.json
 
       - name: Install dependencies
         run: npm install
