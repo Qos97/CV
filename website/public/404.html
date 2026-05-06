@@ -7,7 +7,7 @@
       // SPA redirect for GitHub Pages — encodes the path into the query string
       // so the main index.html can restore it via history.replaceState.
       // pathSegmentsToKeep = 1 keeps the /CV/ repo prefix.
-      var pathSegmentsToKeep = 1;
+      var pathSegmentsToKeep = 0;
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
