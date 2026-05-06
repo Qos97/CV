@@ -24,3 +24,10 @@ website/vite.config.js.timestamp-*
 archive/
 Trabalho/
 Formações/
+
+# Local-only deploy tools
+deploy.sh
+deploy.py
+.env.example
+CLAUDE.md
+scripts/
