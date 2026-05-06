@@ -46,9 +46,6 @@ export default function About() {
 
             <div className="about__contact-card">
               <h3>{t.contactTitle}</h3>
-              <a href="mailto:filipe.fernandes.work@gmail.com" className="about__contact-link">
-                ✉ filipe.fernandes.work@gmail.com
-              </a>
               <a href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer" className="about__contact-link">
                 ⟁ linkedin.com/in/ffernandes97
               </a>

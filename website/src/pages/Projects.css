@@ -82,6 +82,19 @@
   border-top: 1px solid var(--border);
 }
 
+.projects-group-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 8px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--border);
+}
+
+.projects-grid + .projects-group-title {
+  margin-top: 40px;
+}
+
 .projects-note {
   display: flex;
   align-items: center;

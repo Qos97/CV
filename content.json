@@ -92,14 +92,14 @@
           "status": "current",
           "description": "Administration of hybrid infrastructure (~100 servers, ~100 users), ensuring high availability, security, and service continuity.",
           "bullets": [
-            "Administer Kubernetes cluster, Ceph distributed storage, and Docker container environments in production (~100 servers, ~100 users)",
-            "Configure and maintain Fortinet FortiGate, FortiADC, and WatchGuard firewalls plus HAProxy load balancing: VPN, NAT, network segmentation, SSL inspection",
-            "Build and maintain observability platform: Zabbix, Prometheus, Grafana — dashboards, alerting, capacity planning",
-            "Manage 80+ Linux production hosts via Ansible across 5 product lines; automate IT reporting via Python/Node.js pipeline integrating Jira Cloud API (Excel + PowerPoint generation)",
-            "Automated Exchange Online user lifecycle via PowerShell: full offboarding (Distribution Lists, M365 Groups, Shared Mailboxes, RBAC, mailbox delegations), permission/group membership cloning, and scheduled report uploads to SharePoint via PnP and Graph API",
-            "Developed containerised video compression service (C#/.NET, Docker): downloads MP4s from SharePoint via Graph API, compresses with FFmpeg (H.264/CRF28), re-uploads to SharePoint on a 2-hour cycle with automated Office 365 email alerting on failure",
-            "Built internal IT self-service portal (ASP.NET 8 MVC, Windows Authentication, IIS): AD user creation with configurable OUs, password reset/unlock, group management, and Exchange Online Distribution List management via Graph API",
             "Manage Hybrid Azure AD, Active Directory, Group Policies, and Windows Server 2016–2022 environments",
+            "Manage 80+ Linux Ubuntu production hosts via Ansible across 5 product lines; automate IT reporting via Python/Node.js pipeline integrating Jira Cloud API (Excel + PowerPoint generation)",
+            "Build and maintain observability platform: Zabbix, Prometheus, Grafana — dashboards, alerting, capacity planning",
+            "Automated Exchange Online user lifecycle via PowerShell: full offboarding (Distribution Lists, M365 Groups, Shared Mailboxes, RBAC, mailbox delegations), permission/group membership cloning, and scheduled report uploads to SharePoint via PnP and Graph API",
+            "Configure and maintain Fortinet FortiGate, FortiADC, and WatchGuard firewalls plus HAProxy load balancing: VPN, NAT, network segmentation, SSL inspection",
+            "Built internal IT self-service portal (ASP.NET 8 MVC, Windows Authentication, IIS): AD user creation with configurable OUs, password reset/unlock, group management, and Exchange Online Distribution List management via Graph API",
+            "Administer Kubernetes cluster, Ceph distributed storage, and Docker container environments in production (~100 servers, ~100 users)",
+            "Developed containerised video compression service (C#/.NET, Docker): downloads MP4s from SharePoint via Graph API, compresses with FFmpeg (H.264/CRF28), re-uploads to SharePoint on a 2-hour cycle with automated Office 365 email alerting on failure",
             "Conduct multi-entity vulnerability assessments with OpenVAS (5 org scopes); drive remediation, OS lifecycle updates, and TLS certificate automation",
             "Apply ITIL-based change management: maintenance windows, rollback plans, and post-implementation reviews"
           ],
@@ -336,7 +336,9 @@
       "title": "Projects",
       "intro": "Production tools and automation built for real infrastructure challenges, alongside homelab projects used to test and refine techniques before applying them at scale.",
       "note": "More projects coming — this section will be updated as I document and publish more of my work.",
-      "list": [
+      "workTitle": "Built at Work",
+      "personalTitle": "Personal & Homelab",
+      "workList": [
         {
           "title": "IT Infra Planning Toolkit",
           "status": "Production",
@@ -436,7 +438,9 @@
             "Exchange Online Distribution List management via Microsoft Graph API across multiple domains (go4mobility.com, sendit.pt, go4group.pt)",
             "Role-based access via Windows Authentication + AD group membership; deployed on IIS with Kerberos/NTLM"
           ]
-        },
+        }
+      ],
+      "personalList": [
         {
           "title": "Proxmox VE Homelab",
           "status": "Active",
@@ -534,8 +538,8 @@
           "name": "NSE 4 / NSE 7",
           "full": "Fortinet Network Security Expert",
           "vendor": "Fortinet",
-          "status": "Planned",
-          "statusType": "yellow",
+          "status": "Considering",
+          "statusType": "gray",
           "why": "Covers FortiGate and FortiADC in depth — tools I work with daily for firewalling, VPN, and network segmentation.",
           "tags": [
             "Fortinet",
@@ -544,16 +548,16 @@
           ]
         },
         {
-          "name": "RHCSA",
-          "full": "Red Hat Certified System Administrator",
-          "vendor": "Red Hat",
+          "name": "LFCS",
+          "full": "Linux Foundation Certified System Administrator",
+          "vendor": "Linux Foundation",
           "status": "Considering",
           "statusType": "gray",
-          "why": "Would strengthen the Linux administration side of my skillset, especially for RHEL/CentOS environments.",
+          "why": "Certifies Linux system administration on Ubuntu — aligns directly with the 80+ Ubuntu hosts I manage in production.",
           "tags": [
             "Linux",
-            "Red Hat",
-            "RHEL"
+            "Ubuntu",
+            "Linux Foundation"
           ]
         }
       ],
@@ -722,14 +726,14 @@
           "status": "current",
           "description": "Administração de infraestrutura híbrida (~100 servidores, ~100 utilizadores), garantindo alta disponibilidade, segurança e continuidade de serviço.",
           "bullets": [
-            "Administração de cluster Kubernetes, armazenamento distribuído Ceph e ambientes Docker em produção (~100 servidores, ~100 utilizadores)",
-            "Configuração e manutenção de firewalls Fortinet FortiGate, FortiADC e WatchGuard, e load balancing HAProxy: VPN, NAT, segmentação de rede, inspeção SSL",
-            "Construção e manutenção de plataforma de observabilidade: Zabbix, Prometheus, Grafana — dashboards, alertas, planeamento de capacidade",
-            "Gestão de 80+ hosts Linux em produção via Ansible (5 linhas de produto); automação de relatórios IT com pipeline Python/Node.js integrado com Jira Cloud API (geração de Excel + PowerPoint)",
-            "Automatizou ciclo de vida de utilizadores Exchange Online via PowerShell: offboarding completo (Distribution Lists, M365 Groups, Shared Mailboxes, RBAC, delegações), clonagem de grupos e permissões, e upload automático de relatórios para SharePoint via PnP e Graph API",
-            "Desenvolveu serviço de compressão de vídeo containerizado (C#/.NET, Docker): download de MP4s do SharePoint via Graph API, compressão com FFmpeg (H.264/CRF28), re-upload automático em ciclo de 2 horas com alertas por email Office 365 em caso de erro",
-            "Construiu portal interno IT de self-service (ASP.NET 8 MVC, Windows Authentication, IIS): criação de utilizadores AD com OUs configuráveis, reset/desbloqueio de passwords, gestão de grupos e gestão de Distribution Lists Exchange Online via Graph API",
             "Gestão de Hybrid Azure AD, Active Directory, Group Policies e Windows Server 2016–2022",
+            "Gestão de 80+ hosts Linux Ubuntu em produção via Ansible (5 linhas de produto); automação de relatórios IT com pipeline Python/Node.js integrado com Jira Cloud API (geração de Excel + PowerPoint)",
+            "Construção e manutenção de plataforma de observabilidade: Zabbix, Prometheus, Grafana — dashboards, alertas, planeamento de capacidade",
+            "Automatizou ciclo de vida de utilizadores Exchange Online via PowerShell: offboarding completo (Distribution Lists, M365 Groups, Shared Mailboxes, RBAC, delegações), clonagem de grupos e permissões, e upload automático de relatórios para SharePoint via PnP e Graph API",
+            "Configuração e manutenção de firewalls Fortinet FortiGate, FortiADC e WatchGuard, e load balancing HAProxy: VPN, NAT, segmentação de rede, inspeção SSL",
+            "Construiu portal interno IT de self-service (ASP.NET 8 MVC, Windows Authentication, IIS): criação de utilizadores AD com OUs configuráveis, reset/desbloqueio de passwords, gestão de grupos e gestão de Distribution Lists Exchange Online via Graph API",
+            "Administração de cluster Kubernetes, armazenamento distribuído Ceph e ambientes Docker em produção (~100 servidores, ~100 utilizadores)",
+            "Desenvolveu serviço de compressão de vídeo containerizado (C#/.NET, Docker): download de MP4s do SharePoint via Graph API, compressão com FFmpeg (H.264/CRF28), re-upload automático em ciclo de 2 horas com alertas por email Office 365 em caso de erro",
             "Avaliação de vulnerabilidades com OpenVAS em múltiplas entidades (5 âmbitos org.); remediação, atualização de OS obsoletos e automação de certificados TLS",
             "Aplicação de change management ITIL: janelas de manutenção, planos de rollback e revisões pós-implementação"
           ],
@@ -966,7 +970,9 @@
       "title": "Projetos",
       "intro": "Ferramentas de produção e automação criadas para desafios reais de infraestrutura, a par de projetos homelab para testar e refinar técnicas antes de as aplicar em escala.",
       "note": "Mais projetos a caminho — esta secção será atualizada à medida que documento e publico mais trabalho.",
-      "list": [
+      "workTitle": "Construído no Trabalho",
+      "personalTitle": "Pessoal & Homelab",
+      "workList": [
         {
           "title": "Kit de Planeamento de Infraestrutura IT",
           "status": "Produção",
@@ -1066,7 +1072,9 @@
             "Gestão de Distribution Lists Exchange Online via Microsoft Graph API em múltiplos domínios (go4mobility.com, sendit.pt, go4group.pt)",
             "Controlo de acesso por função via Windows Authentication + pertença a grupos AD; deployed em IIS com Kerberos/NTLM"
           ]
-        },
+        }
+      ],
+      "personalList": [
         {
           "title": "Homelab Proxmox VE",
           "status": "Ativo",
@@ -1164,8 +1172,8 @@
           "name": "NSE 4 / NSE 7",
           "full": "Fortinet Network Security Expert",
           "vendor": "Fortinet",
-          "status": "Planeada",
-          "statusType": "yellow",
+          "status": "Em consideração",
+          "statusType": "gray",
           "why": "Cobre FortiGate e FortiADC em profundidade — ferramentas com que trabalho diariamente para firewalling, VPN e segmentação de rede.",
           "tags": [
             "Fortinet",
@@ -1174,16 +1182,16 @@
           ]
         },
         {
-          "name": "RHCSA",
-          "full": "Red Hat Certified System Administrator",
-          "vendor": "Red Hat",
+          "name": "LFCS",
+          "full": "Linux Foundation Certified System Administrator",
+          "vendor": "Linux Foundation",
           "status": "Em consideração",
           "statusType": "gray",
-          "why": "Reforçaria a vertente de administração Linux do meu perfil, especialmente para ambientes RHEL/CentOS.",
+          "why": "Certifica administração de sistemas Linux no Ubuntu — alinha diretamente com os 80+ hosts Ubuntu que giro em produção.",
           "tags": [
             "Linux",
-            "Red Hat",
-            "RHEL"
+            "Ubuntu",
+            "Linux Foundation"
           ]
         }
       ],
