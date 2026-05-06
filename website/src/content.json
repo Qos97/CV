@@ -560,6 +560,14 @@
       "trainingSubtitle": "Training & Courses",
       "training": [
         {
+          "name": "Docker for the Absolute Beginner - Hands On - DevOps",
+          "platform": "Udemy",
+          "date": "Apr 2026",
+          "hours": "4.5h",
+          "tags": ["Docker", "DevOps", "Containers"],
+          "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732ddO"
+        },
+        {
           "name": "FortiGate NSE4 v7 Training — Part 2/2",
           "platform": "Udemy",
           "date": "Feb 2026",
@@ -1181,6 +1189,14 @@
       ],
       "trainingSubtitle": "Formações e Cursos",
       "training": [
+        {
+          "name": "Docker para Principiantes - Hands On - DevOps",
+          "platform": "Udemy",
+          "date": "Abr 2026",
+          "hours": "4.5h",
+          "tags": ["Docker", "DevOps", "Containers"],
+          "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732ddO"
+        },
         {
           "name": "FortiGate NSE4 v7 Training — Parte 2/2",
           "platform": "Udemy",
