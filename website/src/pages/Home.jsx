@@ -18,9 +18,11 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <div className="container hero__content">
-          <div className="hero__badge">
-            <span className="hero__dot" /> {t.badge}
-          </div>
+          {t.badge && (
+            <div className="hero__badge">
+              <span className="hero__dot" /> {t.badge}
+            </div>
+          )}
           <h1 className="hero__name">Filipe Fernandes</h1>
           <p className="hero__title">{t.title}</p>
           <p className="hero__sub">{t.sub}</p>

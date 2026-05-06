@@ -10,10 +10,10 @@
       "download": "↓ CV"
     },
     "home": {
-      "badge": "Available for new opportunities",
+      "badge": "",
       "title": "System Administrator",
       "sub": "Infrastructure & Security · Automation · Virtualization",
-      "location": "📍 Moita, Setúbal, Portugal",
+      "location": "📍 Lisboa, Portugal",
       "viewExp": "View Experience →",
       "downloadCV": "↓ Download CV",
       "highlights": [
@@ -610,11 +610,11 @@
       "label": "Get in touch",
       "title": "Contact",
       "intro1": "Feel free to reach out for professional opportunities, technical discussions, or collaboration on infrastructure and security topics.",
-      "intro2": "I'm based in Moita, Setúbal, Portugal and open to opportunities in the Lisbon area.",
+      "intro2": "I'm based in Lisboa, Portugal and open to opportunities in the Lisbon area.",
       "emailAction": "Send a message →",
       "linkedinAction": "View profile →",
       "locationLabel": "Location",
-      "locationValue": "Moita, Setúbal, Portugal",
+      "locationValue": "Lisboa, Portugal",
       "locationAction": "Open to Lisbon area positions",
       "cvLabel": "Curriculum Vitae",
       "cvEN": "↓ English CV",
@@ -632,10 +632,10 @@
       "download": "↓ CV"
     },
     "home": {
-      "badge": "Disponível para novas oportunidades",
+      "badge": "",
       "title": "Administrador de Sistemas",
       "sub": "Infraestrutura & Segurança · Automação · Virtualização",
-      "location": "📍 Moita, Setúbal, Portugal",
+      "location": "📍 Lisboa, Portugal",
       "viewExp": "Ver Experiência →",
       "downloadCV": "↓ Download CV",
       "highlights": [
@@ -1232,11 +1232,11 @@
       "label": "Entrar em contacto",
       "title": "Contacto",
       "intro1": "Não hesite em contactar para oportunidades profissionais, discussões técnicas ou colaboração em temas de infraestrutura e segurança.",
-      "intro2": "Estou baseado no Moita, Setúbal, Portugal e disponível para oportunidades na área de Lisboa.",
+      "intro2": "Estou baseado em Lisboa, Portugal e disponível para oportunidades na área de Lisboa.",
       "emailAction": "Enviar mensagem →",
       "linkedinAction": "Ver perfil →",
       "locationLabel": "Localização",
-      "locationValue": "Moita, Setúbal, Portugal",
+      "locationValue": "Lisboa, Portugal",
       "locationAction": "Disponível para posições na área de Lisboa",
       "cvLabel": "Curriculum Vitae",
       "cvEN": "↓ CV em Inglês",
