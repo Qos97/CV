@@ -138,17 +138,19 @@
             "Migrated Group Policy Objects (GPOs) to Intune Configuration Profiles, reducing on-premises dependencies",
             "Managed Windows Server infrastructure: Active Directory, DNS, DHCP, WSUS, File Server, and Group Policy",
             "Maintained VMware vSphere virtual infrastructure: VM provisioning, resource management, snapshots",
+            "Managed Cisco software-defined switching infrastructure: VLAN configuration, port management, and inter-VLAN routing",
             "Created and maintained technical documentation: runbooks, wiki procedures, and knowledge base articles"
           ],
           "tags": [
-            "Microsoft Intune",
-            "Windows Autopilot",
-            "Azure AD",
-            "Windows Server",
-            "VMware vSphere",
-            "PowerShell",
             "Active Directory",
-            "GPO"
+            "Azure AD",
+            "Cisco",
+            "GPO",
+            "Microsoft Intune",
+            "PowerShell",
+            "VMware vSphere",
+            "Windows Autopilot",
+            "Windows Server"
           ]
         },
         {
@@ -774,17 +776,19 @@
             "Migração de Group Policy Objects (GPOs) para Intune Configuration Profiles, reduzindo dependências on-premises",
             "Gestão de infraestrutura Windows Server: Active Directory, DNS, DHCP, WSUS, File Server e Group Policy",
             "Manutenção da infraestrutura virtual VMware vSphere: provisionamento de VMs, gestão de recursos e snapshots",
+            "Gestão de infraestrutura de switching Cisco (SW): configuração de VLANs, gestão de portas e routing inter-VLAN",
             "Criação e manutenção de documentação técnica: runbooks, procedimentos wiki e artigos de knowledge base"
           ],
           "tags": [
-            "Microsoft Intune",
-            "Windows Autopilot",
-            "Azure AD",
-            "Windows Server",
-            "VMware vSphere",
-            "PowerShell",
             "Active Directory",
-            "GPO"
+            "Azure AD",
+            "Cisco",
+            "GPO",
+            "Microsoft Intune",
+            "PowerShell",
+            "VMware vSphere",
+            "Windows Autopilot",
+            "Windows Server"
           ]
         },
         {
