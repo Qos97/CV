@@ -104,22 +104,22 @@
             "Apply ITIL-based change management: maintenance windows, rollback plans, and post-implementation reviews"
           ],
           "tags": [
-            "Kubernetes",
+            "Ansible",
+            "ASP.NET",
+            "Azure AD",
+            "C#",
             "Ceph",
             "Docker",
             "FortiGate",
-            "WatchGuard",
-            "HAProxy",
-            "Ansible",
-            "PowerShell",
-            "C#",
-            "ASP.NET",
-            "Zabbix",
-            "Prometheus",
             "Grafana",
-            "Azure AD",
+            "HAProxy",
+            "ITIL",
+            "Kubernetes",
             "OpenVAS",
-            "ITIL"
+            "PowerShell",
+            "Prometheus",
+            "WatchGuard",
+            "Zabbix"
           ]
         },
         {
@@ -738,22 +738,22 @@
             "Aplicação de change management ITIL: janelas de manutenção, planos de rollback e revisões pós-implementação"
           ],
           "tags": [
-            "Kubernetes",
+            "Ansible",
+            "ASP.NET",
+            "Azure AD",
+            "C#",
             "Ceph",
             "Docker",
             "FortiGate",
-            "WatchGuard",
-            "HAProxy",
-            "Ansible",
-            "PowerShell",
-            "C#",
-            "ASP.NET",
-            "Zabbix",
-            "Prometheus",
             "Grafana",
-            "Azure AD",
+            "HAProxy",
+            "ITIL",
+            "Kubernetes",
             "OpenVAS",
-            "ITIL"
+            "PowerShell",
+            "Prometheus",
+            "WatchGuard",
+            "Zabbix"
           ]
         },
         {
