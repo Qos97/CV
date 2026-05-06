@@ -268,11 +268,8 @@ def build_cv(lang: str, content: dict) -> Document:
 
     p_contact = doc.add_paragraph()
     for run_text, color in [
-        ('+351 961 500 099  ·  ', GRAY),
-        ('filipe.fernandes.work@gmail.com', BLUE),
-        ('  ·  ', GRAY),
         ('linkedin.com/in/ffernandes97', BLUE),
-        ('  ·  Barreiro, Portugal', GRAY),
+        ('  ·  Lisboa, Portugal', GRAY),
     ]:
         r = p_contact.add_run(run_text)
         r.font.name = 'Calibri'; r.font.size = Pt(9)
