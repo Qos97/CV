@@ -19,7 +19,7 @@ export default function Contact() {
           </div>
 
           <div className="contact__cards">
-            < href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer" className="contact-card">
+            <a href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer" className="contact-card">
               <div className="contact-card__icon contact-card__icon--blue">in</div>
               <div>
                 <div className="contact-card__label">LinkedIn</div>
