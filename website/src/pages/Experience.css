@@ -1,0 +1,129 @@
+.timeline {
+  position: relative;
+}
+
+.timeline__item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 0 20px;
+  margin-bottom: 8px;
+}
+
+.timeline__marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.timeline__dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--border);
+  border: 2px solid var(--white);
+  box-shadow: 0 0 0 2px var(--border);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.timeline__item--current .timeline__dot {
+  background: var(--navy);
+  box-shadow: 0 0 0 2px var(--blue);
+}
+
+.timeline__line {
+  width: 2px;
+  flex: 1;
+  background: var(--border);
+  margin-top: 4px;
+  min-height: 40px;
+}
+
+.timeline__content {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.timeline__content:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.timeline__item--current .timeline__content {
+  border-color: var(--blue);
+  border-left: 3px solid var(--navy);
+}
+
+.timeline__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.timeline__company {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.timeline__role {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--blue);
+  margin-top: 2px;
+}
+
+.timeline__meta {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 4px;
+  display: block;
+}
+
+.timeline__desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 12px 0;
+  font-style: italic;
+}
+
+.timeline__bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.timeline__bullets li {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding: 4px 0 4px 18px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.timeline__bullets li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.timeline__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+@media (max-width: 600px) {
+  .timeline__item { grid-template-columns: 24px 1fr; gap: 0 12px; }
+  .timeline__content { padding: 18px 16px; }
+  .timeline__header { flex-direction: column; }
+}

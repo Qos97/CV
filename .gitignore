@@ -1,0 +1,26 @@
+# Claude Code local config
+.claude/
+
+# Python
+.env
+__pycache__/
+*.pyc
+
+# Node
+website/node_modules/
+website/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CV source files (PDFs for download are in website/public/)
+cv-documents/
+
+# Vite temp files
+website/vite.config.js.timestamp-*
+
+# Personal/private folders not needed for the website
+archive/
+Trabalho/
+Formações/
