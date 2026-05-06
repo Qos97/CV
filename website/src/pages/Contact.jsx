@@ -19,16 +19,7 @@ export default function Contact() {
           </div>
 
           <div className="contact__cards">
-            <a href="mailto:filipe.fernandes.work@gmail.com" className="contact-card">
-              <div className="contact-card__icon">✉</div>
-              <div>
-                <div className="contact-card__label">Email</div>
-                <div className="contact-card__value">filipe.fernandes.work@gmail.com</div>
-                <div className="contact-card__action">{t.emailAction}</div>
-              </div>
-            </a>
-
-            <a href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer" className="contact-card">
+            < href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer" className="contact-card">
               <div className="contact-card__icon contact-card__icon--blue">in</div>
               <div>
                 <div className="contact-card__label">LinkedIn</div>

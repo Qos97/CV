@@ -92,7 +92,6 @@ function Footer() {
       <div className="container footer__inner">
         <span>© {new Date().getFullYear()} Filipe Fernandes</span>
         <span className="footer__links">
-          <a href="mailto:filipe.fernandes.work@gmail.com">filipe.fernandes.work@gmail.com</a>
           <a href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer">LinkedIn</a>
         </span>
       </div>
