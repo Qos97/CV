@@ -46,8 +46,8 @@ export default function About() {
 
             <div className="about__contact-card">
               <h3>{t.contactTitle}</h3>
-              <a href="https://linkedin.com/in/ffernandes97" target="_blank" rel="noreferrer" className="about__contact-link">
-                ⟁ linkedin.com/in/ffernandes97
+              <a href="https://linkedin.com/in/fgfernandes97" target="_blank" rel="noreferrer" className="about__contact-link">
+                ⟁ linkedin.com/in/fgfernandes97
               </a>
               <a href="/CV_Filipe_Fernandes_EN.pdf" download className="btn btn-primary" style={{ marginTop: 16, justifyContent: 'center' }}>
                 {t.downloadEN}
