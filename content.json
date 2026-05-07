@@ -619,6 +619,20 @@
           "date": "Dec 2024",
           "hours": "16h",
           "tags": ["AI", "Machine Learning"]
+        },
+        {
+          "name": "European First Aid Course",
+          "platform": "",
+          "date": "Oct 2024",
+          "hours": "12h",
+          "tags": ["First Aid", "Health & Safety"]
+        },
+        {
+          "name": "Forklift Operation Professional Certificate",
+          "platform": "",
+          "date": "Feb 2019",
+          "hours": "8h",
+          "tags": ["Forklift", "Safety"]
         }
       ]
     },
@@ -1257,6 +1271,20 @@
           "date": "Dez 2024",
           "hours": "16h",
           "tags": ["IA", "Machine Learning"]
+        },
+        {
+          "name": "Curso Europeu de Socorrismo",
+          "platform": "",
+          "date": "Out 2024",
+          "hours": "12h",
+          "tags": ["Primeiros Socorros", "Saúde e Segurança"]
+        },
+        {
+          "name": "Certificado de Formação Profissional de Manobração de Empilhadores",
+          "platform": "",
+          "date": "Fev 2019",
+          "hours": "8h",
+          "tags": ["Empilhadores", "Segurança"]
         }
       ]
     },
