@@ -33,7 +33,7 @@ export default function Contact() {
               <div>
                 <div className="contact-card__label">{t.locationLabel}</div>
                 <div className="contact-card__value">{t.locationValue}</div>
-                <div className="contact-card__action">{t.locationAction}</div>
+                {t.locationAction && <div className="contact-card__action">{t.locationAction}</div>}
               </div>
             </div>
 

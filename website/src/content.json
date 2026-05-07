@@ -631,7 +631,7 @@
       "linkedinAction": "View profile →",
       "locationLabel": "Location",
       "locationValue": "Lisboa, Portugal",
-      "locationAction": "Open to Lisbon area positions",
+      "locationAction": "",
       "cvLabel": "Curriculum Vitae",
       "cvEN": "↓ English CV",
       "cvPT": "↓ Portuguese CV"
@@ -1269,7 +1269,7 @@
       "linkedinAction": "Ver perfil →",
       "locationLabel": "Localização",
       "locationValue": "Lisboa, Portugal",
-      "locationAction": "Disponível para posições na área de Lisboa",
+      "locationAction": "",
       "cvLabel": "Curriculum Vitae",
       "cvEN": "↓ CV em Inglês",
       "cvPT": "↓ CV em Português"
