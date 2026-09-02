@@ -587,6 +587,18 @@
           "cv": true
         },
         {
+          "name": "Hacking and Penetration Testing (Level E)",
+          "platform": "C-Academy — Instituto Politécnico do Porto",
+          "date": "Aug 2026",
+          "hours": "70h",
+          "tags": [
+            "Penetration Testing",
+            "Ethical Hacking",
+            "Cybersecurity"
+          ],
+          "cv": true
+        },
+        {
           "name": "Docker for the Absolute Beginner - Hands On - DevOps",
           "platform": "Udemy",
           "date": "Apr 2026",
@@ -1290,6 +1302,18 @@
             "Containers"
           ],
           "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d",
+          "cv": true
+        },
+        {
+          "name": "Hacking e Testes de Penetração (Nível E)",
+          "platform": "C-Academy — Instituto Politécnico do Porto",
+          "date": "Ago 2026",
+          "hours": "70h",
+          "tags": [
+            "Testes de Penetração",
+            "Ethical Hacking",
+            "Cibersegurança"
+          ],
           "cv": true
         },
         {
