@@ -54,10 +54,10 @@
       "title": "About Me",
       "paragraphs": [
         "I'm a System Administrator with over <strong>8 years of progressive experience</strong> in enterprise IT infrastructure, currently working at <strong>Sendit</strong> in Lisbon, Portugal.",
-        "My core expertise is managing complex hybrid environments — from on-premises VMware clusters and Kubernetes workloads to Microsoft 365 tenants and Fortinet/WatchGuard security stacks. At Sendit, I led a <strong>full Microsoft 365 cross-tenant migration (100–500 mailboxes)</strong> covering Exchange, OneDrive, and SharePoint with zero data loss.",
+        "My core expertise is managing complex hybrid environments - from on-premises VMware clusters and Kubernetes workloads to Microsoft 365 tenants and Fortinet/WatchGuard security stacks. At Sendit, I led a <strong>full Microsoft 365 cross-tenant migration (100–500 mailboxes)</strong> covering Exchange, OneDrive, and SharePoint with zero data loss.",
         "I put a strong emphasis on <strong>automation</strong> (Ansible, PowerShell, Bash), <strong>security hardening</strong>, and building robust monitoring with <strong>Zabbix, Prometheus, and Grafana</strong>. I follow <strong>ITIL-based practices</strong> for change management, maintain technical documentation (runbooks, wikis, Confluence), and plan maintenance windows with rollback strategies.",
-        "Before Sendit, I spent nearly 7 years at Viagens Abreu — progressing from IT Support Specialist to System Administrator — where I actively participated in the <strong>Exchange on-premises to Microsoft 365 migration (500+ mailboxes)</strong>, managed VMware virtual infrastructure, and built automation workflows. I also maintain a <strong>personal homelab</strong> (Proxmox VE, Docker self-hosted services) for testing infrastructure patterns in a production-like environment.",
-        "I'm genuinely passionate about <strong>Artificial Intelligence</strong> and actively integrate AI tools into my daily workflows — from using LLMs to accelerate scripting and troubleshooting, to exploring automation opportunities that reduce toil and improve consistency across infrastructure operations."
+        "Before Sendit, I spent nearly 7 years at Viagens Abreu - progressing from IT Support Specialist to System Administrator - where I actively participated in the <strong>Exchange on-premises to Microsoft 365 migration (500+ mailboxes)</strong>, managed VMware virtual infrastructure, and built automation workflows. I also maintain a <strong>personal homelab</strong> (Proxmox VE, Docker self-hosted services) for testing infrastructure patterns in a production-like environment.",
+        "I'm genuinely passionate about <strong>Artificial Intelligence</strong> and actively integrate AI tools into my daily workflows - from using LLMs to accelerate scripting and troubleshooting, to exploring automation opportunities that reduce toil and improve consistency across infrastructure operations."
       ],
       "stats": [
         {
@@ -78,7 +78,7 @@
         }
       ],
       "metaLang": "Portuguese (Native) · English (Professional)",
-      "metaEdu": "Técnico de Programação e Gestão de Sistemas Informáticos — Escola Secundária Augusto Cabrita (2014–2017)",
+      "metaEdu": "Técnico de Programação e Gestão de Sistemas Informáticos - Escola Secundária Augusto Cabrita (2014–2017)",
       "contactTitle": "Contact",
       "downloadEN": "Download CV (EN)",
       "downloadPT": "Download CV (PT)",
@@ -99,7 +99,7 @@
           "bullets": [
             "Manage Hybrid Azure AD, Active Directory, Group Policies, and Windows Server 2016–2022 environments",
             "Manage 80+ Linux Ubuntu production hosts via Ansible across 5 product lines; automate IT reporting via Python/Node.js pipeline integrating Jira Cloud API (Excel + PowerPoint generation)",
-            "Build and maintain observability platform: Zabbix, Prometheus, Grafana — dashboards, alerting, capacity planning",
+            "Build and maintain observability platform: Zabbix, Prometheus, Grafana - dashboards, alerting, capacity planning",
             "Automated Exchange Online user lifecycle via PowerShell: full offboarding (Distribution Lists, M365 Groups, Shared Mailboxes, RBAC, mailbox delegations), permission/group membership cloning, and scheduled report uploads to SharePoint via PnP and Graph API",
             "Configure and maintain Fortinet FortiGate, FortiADC, and WatchGuard firewalls plus HAProxy load balancing: VPN, NAT, network segmentation, SSL inspection",
             "Manage Netgear software-defined switching infrastructure: VLAN configuration, port management, and inter-VLAN routing",
@@ -344,7 +344,7 @@
       "label": "What I build",
       "title": "Projects",
       "intro": "Production tools and automation built for real infrastructure challenges, alongside homelab projects used to test and refine techniques before applying them at scale.",
-      "note": "More projects coming — this section will be updated as I document and publish more of my work.",
+      "note": "More projects coming - this section will be updated as I document and publish more of my work.",
       "workTitle": "Built at Work",
       "personalTitle": "Personal & Homelab",
       "workList": [
@@ -352,7 +352,7 @@
           "title": "IT Infra Planning Toolkit",
           "status": "Production",
           "statusType": "green",
-          "description": "Internal automation pipeline that pulls data from Jira Cloud and generates weekly IT status reports as Excel workbooks and PowerPoint presentations — eliminating manual reporting overhead.",
+          "description": "Internal automation pipeline that pulls data from Jira Cloud and generates weekly IT status reports as Excel workbooks and PowerPoint presentations - eliminating manual reporting overhead.",
           "tags": [
             "Python",
             "Node.js",
@@ -371,7 +371,7 @@
           "title": "Ansible Infrastructure Automation",
           "status": "Production",
           "statusType": "green",
-          "description": "Ansible project managing 80+ Linux production hosts across 5 product lines — covering user lifecycle, SSH hardening, package management, agent deployment, and operational reporting.",
+          "description": "Ansible project managing 80+ Linux production hosts across 5 product lines - covering user lifecycle, SSH hardening, package management, agent deployment, and operational reporting.",
           "tags": [
             "Ansible",
             "Linux",
@@ -391,7 +391,7 @@
           "title": "SharePoint Video Compression Pipeline",
           "status": "Production",
           "statusType": "green",
-          "description": "Containerised service that automatically downloads MP4 files from SharePoint Online, compresses them with FFmpeg, and re-uploads the result — running unattended on a 2-hour cycle.",
+          "description": "Containerised service that automatically downloads MP4 files from SharePoint Online, compresses them with FFmpeg, and re-uploads the result - running unattended on a 2-hour cycle.",
           "tags": [
             "C#",
             ".NET",
@@ -402,7 +402,7 @@
           ],
           "bullets": [
             "C#/.NET application authenticates to SharePoint via Azure AD App Registration and Graph API",
-            "FFmpeg compression: H.264/libx264, CRF 28 — significant size reduction with no audio track",
+            "FFmpeg compression: H.264/libx264, CRF 28 - significant size reduction with no audio track",
             "Moves originals to ja_tratado/, failed files to corrompidos/, uploads result to compressed/",
             "Runs as Docker container with --restart always; sends Office 365 email alerts on failure"
           ]
@@ -411,7 +411,7 @@
           "title": "Exchange Online Automation Suite",
           "status": "Production",
           "statusType": "green",
-          "description": "Set of PowerShell scripts for automating critical Exchange Online and Active Directory operations — from complete user offboarding to permission cloning and scheduled report delivery.",
+          "description": "Set of PowerShell scripts for automating critical Exchange Online and Active Directory operations - from complete user offboarding to permission cloning and scheduled report delivery.",
           "tags": [
             "PowerShell",
             "Exchange Online",
@@ -422,15 +422,15 @@
           "bullets": [
             "Remove-EXOUserAllAccess: removes all permissions (DL, M365 Groups, Shared Mailboxes, RBAC, delegations) for full offboarding or compromised account lockdown",
             "Clone-EXOGroupMembership / Clone-SharedMailboxAccess: replicates group memberships and mailbox permissions between users",
-            "Automated TLS certificate expiry checks for HAProxy portals (PROD/QA) — reads fullchain.pem, reports days to expiry",
+            "Automated TLS certificate expiry checks for HAProxy portals (PROD/QA) - reads fullchain.pem, reports days to expiry",
             "Upload-Reports-SharePoint: scheduled upload of daily reports to SharePoint with auto-folder creation, via PnP and Graph API"
           ]
         },
         {
-          "title": "UserPortal — Internal IT Self-Service Portal",
+          "title": "UserPortal - Internal IT Self-Service Portal",
           "status": "Production",
           "statusType": "green",
-          "description": "ASP.NET 8 MVC internal portal that centralises the most frequent Active Directory and Microsoft 365 helpdesk operations — eliminating reliance on PowerShell and MMC for authorised technicians.",
+          "description": "ASP.NET 8 MVC internal portal that centralises the most frequent Active Directory and Microsoft 365 helpdesk operations - eliminating reliance on PowerShell and MMC for authorised technicians.",
           "tags": [
             "C#",
             "ASP.NET 8 MVC",
@@ -443,7 +443,7 @@
           "bullets": [
             "AD user creation with configurable OU selection, secure password generation (12 chars, expires on first login), and attribute population (phone, role, department, manager)",
             "Password reset, account unlock, and group management (creation + member assignment) via System.DirectoryServices",
-            "AD search with password age tracking — colour-coded badges (green >10 days, yellow ≤10, red ≤5)",
+            "AD search with password age tracking - colour-coded badges (green >10 days, yellow ≤10, red ≤5)",
             "Exchange Online Distribution List management via Microsoft Graph API across multiple domains (go4mobility.com, sendit.pt, go4group.pt)",
             "Role-based access via Windows Authentication + AD group membership; deployed on IIS with Kerberos/NTLM"
           ]
@@ -489,10 +489,10 @@
           ]
         },
         {
-          "title": "Budget App — Personal Finance Tracker",
+          "title": "Budget App - Personal Finance Tracker",
           "status": "Active",
           "statusType": "blue",
-          "description": "Self-hosted full-stack personal finance application for tracking transactions, setting budgets, and parsing bank statements from multiple Portuguese banks — built with FastAPI and Next.js, running on Docker Compose.",
+          "description": "Self-hosted full-stack personal finance application for tracking transactions, setting budgets, and parsing bank statements from multiple Portuguese banks - built with FastAPI and Next.js, running on Docker Compose.",
           "tags": [
             "Python",
             "FastAPI",
@@ -503,7 +503,7 @@
             "Tailwind CSS"
           ],
           "bullets": [
-            "Custom bank statement parsers for Revolut (CSV), Santander (account + card), and Pluxee — normalises formats into a unified transaction model",
+            "Custom bank statement parsers for Revolut (CSV), Santander (account + card), and Pluxee - normalises formats into a unified transaction model",
             "Auto-categorisation service, deduplication engine, and recurring transaction detection running on every import",
             "Budget management with monthly tracking, overspend alerts, and per-category breakdown via dashboard",
             "FastAPI async backend with SQLAlchemy + asyncpg, Alembic migrations, JWT authentication, and structlog structured logging",
@@ -515,7 +515,7 @@
     "certifications": {
       "label": "Credentials",
       "title": "Certifications",
-      "note": "I currently hold no formal vendor certifications — my expertise is built on 8+ years of hands-on production experience. The following are certifications I'm actively planning to pursue.",
+      "note": "I currently hold no formal vendor certifications - my expertise is built on 8+ years of hands-on production experience. The following are certifications I'm actively planning to pursue.",
       "subtitle": "Planned Certifications",
       "list": [
         {
@@ -524,7 +524,7 @@
           "vendor": "Microsoft",
           "status": "Planned",
           "statusType": "yellow",
-          "why": "Validates Azure administration skills — directly relevant to the Hybrid Azure AD and Microsoft 365 work I do daily.",
+          "why": "Validates Azure administration skills - directly relevant to the Hybrid Azure AD and Microsoft 365 work I do daily.",
           "tags": [
             "Azure",
             "Microsoft"
@@ -549,7 +549,7 @@
           "vendor": "Fortinet",
           "status": "Considering",
           "statusType": "gray",
-          "why": "Covers FortiGate and FortiADC in depth — tools I work with daily for firewalling, VPN, and network segmentation.",
+          "why": "Covers FortiGate and FortiADC in depth - tools I work with daily for firewalling, VPN, and network segmentation.",
           "tags": [
             "Fortinet",
             "FortiGate",
@@ -562,7 +562,7 @@
           "vendor": "Linux Foundation",
           "status": "Considering",
           "statusType": "gray",
-          "why": "Certifies Linux system administration on Ubuntu — aligns directly with the 80+ Ubuntu hosts I manage in production.",
+          "why": "Certifies Linux system administration on Ubuntu - aligns directly with the 80+ Ubuntu hosts I manage in production.",
           "tags": [
             "Linux",
             "Ubuntu",
@@ -588,7 +588,7 @@
         },
         {
           "name": "Hacking and Penetration Testing (Level E)",
-          "platform": "C-Academy — Instituto Politécnico do Porto",
+          "platform": "C-Academy - Instituto Politécnico do Porto",
           "date": "Aug 2026",
           "hours": "70h",
           "tags": [
@@ -612,7 +612,7 @@
           "cv": true
         },
         {
-          "name": "FortiGate NSE4 v7 Training — Part 2/2",
+          "name": "FortiGate NSE4 v7 Training - Part 2/2",
           "platform": "Udemy",
           "date": "Feb 2026",
           "hours": "15.5h",
@@ -625,7 +625,7 @@
           "cv": true
         },
         {
-          "name": "FortiGate NSE4 v7 Training — Part 1/2",
+          "name": "FortiGate NSE4 v7 Training - Part 1/2",
           "platform": "Udemy",
           "date": "Oct 2025",
           "hours": "18.5h",
@@ -772,10 +772,10 @@
       "title": "Sobre Mim",
       "paragraphs": [
         "Sou Administrador de Sistemas com mais de <strong>8 anos de experiência progressiva</strong> em infraestrutura de TI enterprise, atualmente a trabalhar na <strong>Sendit</strong> em Lisboa, Portugal.",
-        "A minha especialidade é gerir ambientes híbridos complexos — desde clusters VMware on-premises e workloads Kubernetes, a tenants Microsoft 365 e stacks de segurança Fortinet/WatchGuard. Na Sendit, liderei uma <strong>migração cross-tenant Microsoft 365 completa (100–500 mailboxes)</strong> cobrindo Exchange, OneDrive e SharePoint com zero perda de dados.",
+        "A minha especialidade é gerir ambientes híbridos complexos - desde clusters VMware on-premises e workloads Kubernetes, a tenants Microsoft 365 e stacks de segurança Fortinet/WatchGuard. Na Sendit, liderei uma <strong>migração cross-tenant Microsoft 365 completa (100–500 mailboxes)</strong> cobrindo Exchange, OneDrive e SharePoint com zero perda de dados.",
         "Dou grande ênfase à <strong>automação</strong> (Ansible, PowerShell, Bash), ao <strong>hardening de segurança</strong> e à construção de monitorização robusta com <strong>Zabbix, Prometheus e Grafana</strong>. Sigo <strong>práticas baseadas em ITIL</strong> para gestão de mudanças, mantenho documentação técnica (runbooks, wikis, Confluence) e planeio janelas de manutenção com estratégias de rollback.",
-        "Antes da Sendit, passei quase 7 anos na Viagens Abreu — evoluindo de Técnico de Suporte IT a Administrador de Sistemas — onde participei ativamente na <strong>migração Exchange on-premises para Microsoft 365 (500+ mailboxes)</strong>, geri infraestrutura virtual VMware e desenvolvi fluxos de automação. Mantenho também um <strong>homelab pessoal</strong> (Proxmox VE, serviços self-hosted em Docker) para testar padrões de infraestrutura num ambiente semelhante a produção.",
-        "Tenho uma paixão genuína por <strong>Inteligência Artificial</strong> e integro ativamente ferramentas de IA no meu dia a dia — desde o uso de LLMs para acelerar scripting e troubleshooting, até à exploração de oportunidades de automação que reduzem tarefas repetitivas e melhoram a consistência das operações de infraestrutura."
+        "Antes da Sendit, passei quase 7 anos na Viagens Abreu - evoluindo de Técnico de Suporte IT a Administrador de Sistemas - onde participei ativamente na <strong>migração Exchange on-premises para Microsoft 365 (500+ mailboxes)</strong>, geri infraestrutura virtual VMware e desenvolvi fluxos de automação. Mantenho também um <strong>homelab pessoal</strong> (Proxmox VE, serviços self-hosted em Docker) para testar padrões de infraestrutura num ambiente semelhante a produção.",
+        "Tenho uma paixão genuína por <strong>Inteligência Artificial</strong> e integro ativamente ferramentas de IA no meu dia a dia - desde o uso de LLMs para acelerar scripting e troubleshooting, até à exploração de oportunidades de automação que reduzem tarefas repetitivas e melhoram a consistência das operações de infraestrutura."
       ],
       "stats": [
         {
@@ -796,7 +796,7 @@
         }
       ],
       "metaLang": "Português (Nativo) · Inglês (Profissional)",
-      "metaEdu": "Técnico de Programação e Gestão de Sistemas Informáticos — Escola Secundária Augusto Cabrita (2014–2017)",
+      "metaEdu": "Técnico de Programação e Gestão de Sistemas Informáticos - Escola Secundária Augusto Cabrita (2014–2017)",
       "contactTitle": "Contacto",
       "downloadEN": "Download CV (EN)",
       "downloadPT": "Download CV (PT)",
@@ -817,7 +817,7 @@
           "bullets": [
             "Gestão de Hybrid Azure AD, Active Directory, Group Policies e Windows Server 2016–2022",
             "Gestão de 80+ hosts Linux Ubuntu em produção via Ansible (5 linhas de produto); automação de relatórios IT com pipeline Python/Node.js integrado com Jira Cloud API (geração de Excel + PowerPoint)",
-            "Construção e manutenção de plataforma de observabilidade: Zabbix, Prometheus, Grafana — dashboards, alertas, planeamento de capacidade",
+            "Construção e manutenção de plataforma de observabilidade: Zabbix, Prometheus, Grafana - dashboards, alertas, planeamento de capacidade",
             "Automatizou ciclo de vida de utilizadores Exchange Online via PowerShell: offboarding completo (Distribution Lists, M365 Groups, Shared Mailboxes, RBAC, delegações), clonagem de grupos e permissões, e upload automático de relatórios para SharePoint via PnP e Graph API",
             "Configuração e manutenção de firewalls Fortinet FortiGate, FortiADC e WatchGuard, e load balancing HAProxy: VPN, NAT, segmentação de rede, inspeção SSL",
             "Gestão de infraestrutura de switching Netgear (SW): configuração de VLANs, gestão de portas e routing inter-VLAN",
@@ -1062,7 +1062,7 @@
       "label": "O que construo",
       "title": "Projetos",
       "intro": "Ferramentas de produção e automação criadas para desafios reais de infraestrutura, a par de projetos homelab para testar e refinar técnicas antes de as aplicar em escala.",
-      "note": "Mais projetos a caminho — esta secção será atualizada à medida que documento e publico mais trabalho.",
+      "note": "Mais projetos a caminho - esta secção será atualizada à medida que documento e publico mais trabalho.",
       "workTitle": "Construído no Trabalho",
       "personalTitle": "Pessoal & Homelab",
       "workList": [
@@ -1070,7 +1070,7 @@
           "title": "Kit de Planeamento de Infraestrutura IT",
           "status": "Produção",
           "statusType": "green",
-          "description": "Pipeline de automação interna que recolhe dados do Jira Cloud e gera relatórios semanais de ponto de situação IT em Excel e PowerPoint — eliminando o esforço manual de reporting.",
+          "description": "Pipeline de automação interna que recolhe dados do Jira Cloud e gera relatórios semanais de ponto de situação IT em Excel e PowerPoint - eliminando o esforço manual de reporting.",
           "tags": [
             "Python",
             "Node.js",
@@ -1089,7 +1089,7 @@
           "title": "Automação de Infraestrutura com Ansible",
           "status": "Produção",
           "statusType": "green",
-          "description": "Projeto Ansible que gere 80+ hosts Linux em produção em 5 linhas de produto — cobrindo ciclo de vida de utilizadores, SSH hardening, gestão de pacotes, deploy de agentes e reporting operacional.",
+          "description": "Projeto Ansible que gere 80+ hosts Linux em produção em 5 linhas de produto - cobrindo ciclo de vida de utilizadores, SSH hardening, gestão de pacotes, deploy de agentes e reporting operacional.",
           "tags": [
             "Ansible",
             "Linux",
@@ -1109,7 +1109,7 @@
           "title": "Pipeline de Compressão de Vídeos no SharePoint",
           "status": "Produção",
           "statusType": "green",
-          "description": "Serviço containerizado que faz download automático de MP4s do SharePoint Online, comprime com FFmpeg e faz re-upload — executando sem intervenção em ciclo de 2 horas.",
+          "description": "Serviço containerizado que faz download automático de MP4s do SharePoint Online, comprime com FFmpeg e faz re-upload - executando sem intervenção em ciclo de 2 horas.",
           "tags": [
             "C#",
             ".NET",
@@ -1120,7 +1120,7 @@
           ],
           "bullets": [
             "Aplicação C#/.NET autentica no SharePoint via Azure AD App Registration e Graph API",
-            "Compressão FFmpeg: H.264/libx264, CRF 28 — redução significativa de tamanho sem faixa de áudio",
+            "Compressão FFmpeg: H.264/libx264, CRF 28 - redução significativa de tamanho sem faixa de áudio",
             "Move originais para ja_tratado/, ficheiros com erro para corrompidos/, resultado para compressed/",
             "Corre como container Docker com --restart always; envia alertas por email Office 365 em caso de falha"
           ]
@@ -1129,7 +1129,7 @@
           "title": "Suite de Automação Exchange Online",
           "status": "Produção",
           "statusType": "green",
-          "description": "Conjunto de scripts PowerShell para automatizar operações críticas de Exchange Online e Active Directory — desde offboarding completo à clonagem de permissões e entrega agendada de relatórios.",
+          "description": "Conjunto de scripts PowerShell para automatizar operações críticas de Exchange Online e Active Directory - desde offboarding completo à clonagem de permissões e entrega agendada de relatórios.",
           "tags": [
             "PowerShell",
             "Exchange Online",
@@ -1140,15 +1140,15 @@
           "bullets": [
             "Remove-EXOUserAllAccess: remove todas as permissões (DL, M365 Groups, Shared Mailboxes, RBAC, delegações) para offboarding completo ou lockdown de conta comprometida",
             "Clone-EXOGroupMembership / Clone-SharedMailboxAccess: replica grupos e permissões de mailbox entre utilizadores",
-            "Verificação automática de expiração de certificados TLS nos portais HAProxy (PROD/QA) — lê fullchain.pem, reporta dias restantes",
+            "Verificação automática de expiração de certificados TLS nos portais HAProxy (PROD/QA) - lê fullchain.pem, reporta dias restantes",
             "Upload-Reports-SharePoint: upload agendado de relatórios diários para SharePoint com criação automática de pastas, via PnP e Graph API"
           ]
         },
         {
-          "title": "UserPortal — Portal IT de Self-Service Interno",
+          "title": "UserPortal - Portal IT de Self-Service Interno",
           "status": "Produção",
           "statusType": "green",
-          "description": "Portal interno ASP.NET 8 MVC que centraliza as operações de helpdesk mais frequentes em Active Directory e Microsoft 365 — eliminando a dependência de PowerShell e MMC para os técnicos autorizados.",
+          "description": "Portal interno ASP.NET 8 MVC que centraliza as operações de helpdesk mais frequentes em Active Directory e Microsoft 365 - eliminando a dependência de PowerShell e MMC para os técnicos autorizados.",
           "tags": [
             "C#",
             "ASP.NET 8 MVC",
@@ -1161,7 +1161,7 @@
           "bullets": [
             "Criação de utilizadores AD com seleção de OU configurável, geração de password segura (12 chars, expira no 1.º login) e preenchimento de atributos (telefone, cargo, departamento, manager)",
             "Reset de password, desbloqueio de contas e gestão de grupos (criação + membros) via System.DirectoryServices",
-            "Pesquisa AD com tracking de idade de password — badges coloridos (verde >10 dias, amarelo ≤10, vermelho ≤5)",
+            "Pesquisa AD com tracking de idade de password - badges coloridos (verde >10 dias, amarelo ≤10, vermelho ≤5)",
             "Gestão de Distribution Lists Exchange Online via Microsoft Graph API em múltiplos domínios (go4mobility.com, sendit.pt, go4group.pt)",
             "Controlo de acesso por função via Windows Authentication + pertença a grupos AD; deployed em IIS com Kerberos/NTLM"
           ]
@@ -1207,10 +1207,10 @@
           ]
         },
         {
-          "title": "Budget App — Gestor de Finanças Pessoais",
+          "title": "Budget App - Gestor de Finanças Pessoais",
           "status": "Ativo",
           "statusType": "blue",
-          "description": "Aplicação full-stack auto-hospedada para controlo de despesas, definição de orçamentos e importação de extratos bancários de vários bancos portugueses — desenvolvida com FastAPI e Next.js, a correr em Docker Compose.",
+          "description": "Aplicação full-stack auto-hospedada para controlo de despesas, definição de orçamentos e importação de extratos bancários de vários bancos portugueses - desenvolvida com FastAPI e Next.js, a correr em Docker Compose.",
           "tags": [
             "Python",
             "FastAPI",
@@ -1221,7 +1221,7 @@
             "Tailwind CSS"
           ],
           "bullets": [
-            "Parsers de extratos bancários para Revolut (CSV), Santander (conta + cartão) e Pluxee — normaliza os formatos num modelo de transação unificado",
+            "Parsers de extratos bancários para Revolut (CSV), Santander (conta + cartão) e Pluxee - normaliza os formatos num modelo de transação unificado",
             "Serviço de categorização automática, motor de deduplicação e deteção de transações recorrentes em cada importação",
             "Gestão de orçamentos com acompanhamento mensal, alertas de excesso e breakdown por categoria no dashboard",
             "Backend assíncrono FastAPI com SQLAlchemy + asyncpg, migrações Alembic, autenticação JWT e logging estruturado com structlog",
@@ -1233,7 +1233,7 @@
     "certifications": {
       "label": "Credenciais",
       "title": "Certificações",
-      "note": "Não possuo atualmente certificações formais de fornecedores — a minha especialização assenta em 8+ anos de experiência prática em produção. As seguintes são certificações que estou ativamente a planear obter.",
+      "note": "Não possuo atualmente certificações formais de fornecedores - a minha especialização assenta em 8+ anos de experiência prática em produção. As seguintes são certificações que estou ativamente a planear obter.",
       "subtitle": "Certificações Planeadas",
       "list": [
         {
@@ -1242,7 +1242,7 @@
           "vendor": "Microsoft",
           "status": "Planeada",
           "statusType": "yellow",
-          "why": "Valida competências de administração Azure — diretamente relevante para o trabalho diário com Hybrid Azure AD e Microsoft 365.",
+          "why": "Valida competências de administração Azure - diretamente relevante para o trabalho diário com Hybrid Azure AD e Microsoft 365.",
           "tags": [
             "Azure",
             "Microsoft"
@@ -1267,7 +1267,7 @@
           "vendor": "Fortinet",
           "status": "Em consideração",
           "statusType": "gray",
-          "why": "Cobre FortiGate e FortiADC em profundidade — ferramentas com que trabalho diariamente para firewalling, VPN e segmentação de rede.",
+          "why": "Cobre FortiGate e FortiADC em profundidade - ferramentas com que trabalho diariamente para firewalling, VPN e segmentação de rede.",
           "tags": [
             "Fortinet",
             "FortiGate",
@@ -1280,7 +1280,7 @@
           "vendor": "Linux Foundation",
           "status": "Em consideração",
           "statusType": "gray",
-          "why": "Certifica administração de sistemas Linux no Ubuntu — alinha diretamente com os 80+ hosts Ubuntu que giro em produção.",
+          "why": "Certifica administração de sistemas Linux no Ubuntu - alinha diretamente com os 80+ hosts Ubuntu que giro em produção.",
           "tags": [
             "Linux",
             "Ubuntu",
@@ -1306,7 +1306,7 @@
         },
         {
           "name": "Hacking e Testes de Penetração (Nível E)",
-          "platform": "C-Academy — Instituto Politécnico do Porto",
+          "platform": "C-Academy - Instituto Politécnico do Porto",
           "date": "Ago 2026",
           "hours": "70h",
           "tags": [
@@ -1330,7 +1330,7 @@
           "cv": true
         },
         {
-          "name": "FortiGate NSE4 v7 Training — Parte 2/2",
+          "name": "FortiGate NSE4 v7 Training - Parte 2/2",
           "platform": "Udemy",
           "date": "Fev 2026",
           "hours": "15.5h",
@@ -1343,7 +1343,7 @@
           "cv": true
         },
         {
-          "name": "FortiGate NSE4 v7 Training — Parte 1/2",
+          "name": "FortiGate NSE4 v7 Training - Parte 1/2",
           "platform": "Udemy",
           "date": "Out 2025",
           "hours": "18.5h",

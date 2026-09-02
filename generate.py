@@ -49,7 +49,7 @@ STATIC = {
         'lang_label': 'Languages',
         'dev': [
             ('Personal Homelab',
-             '— Proxmox VE hypervisor hosting Linux and Windows VMs; Docker-based self-hosted services '
+             '- Proxmox VE hypervisor hosting Linux and Windows VMs; Docker-based self-hosted services '
              'for testing infrastructure patterns, automation playbooks, and monitoring stacks in a '
              'production-like environment'),
         ],
@@ -69,7 +69,7 @@ STATIC = {
         'lang_label': 'Idiomas',
         'dev': [
             ('Homelab Pessoal',
-             '— Hypervisor Proxmox VE com VMs Linux e Windows; serviços self-hosted em Docker '
+             '- Hypervisor Proxmox VE com VMs Linux e Windows; serviços self-hosted em Docker '
              'para teste de padrões de infraestrutura, playbooks de automação e stacks de '
              'monitorização em ambiente semelhante ao de produção'),
         ],
