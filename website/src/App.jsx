@@ -78,7 +78,7 @@ function Navbar() {
         <button
           className={`navbar__burger${menuOpen ? ' navbar__burger--open' : ''}`}
           onClick={() => setMenuOpen(v => !v)}
-          aria-label="Toggle menu"
+          aria-label={labels.toggleMenu}
         >
           <span /><span /><span />
         </button>

@@ -11,7 +11,8 @@
       "projects": "Projects",
       "certifications": "Certifications",
       "contact": "Contact",
-      "download": "CV"
+      "download": "CV",
+      "toggleMenu": "Toggle menu"
     },
     "home": {
       "badge": "",
@@ -570,6 +571,7 @@
         }
       ],
       "trainingSubtitle": "Training & Courses",
+      "verifyLabel": "Verify",
       "training": [
         {
           "name": "Kubernetes for the Absolute Beginners - Hands-on",
@@ -709,7 +711,8 @@
       "projects": "Projetos",
       "certifications": "Certificações",
       "contact": "Contacto",
-      "download": "CV"
+      "download": "CV",
+      "toggleMenu": "Alternar menu"
     },
     "home": {
       "badge": "",
@@ -1268,6 +1271,7 @@
         }
       ],
       "trainingSubtitle": "Formações e Cursos",
+      "verifyLabel": "Verificar",
       "training": [
         {
           "name": "Kubernetes for the Absolute Beginners - Hands-on",

@@ -37,7 +37,7 @@ export default function Home() {
               {t.viewExp} <ArrowRight size={16} aria-hidden="true" />
             </Link>
             <a
-              href={lang === 'en' ? '/CV_Filipe_Fernandes_EN.pdf' : '/CV_Filipe_Fernandes_PT.pdf'}
+              href={`${import.meta.env.BASE_URL}${lang === 'en' ? 'CV_Filipe_Fernandes_EN.pdf' : 'CV_Filipe_Fernandes_PT.pdf'}`}
               download
               className="btn btn-outline"
             >

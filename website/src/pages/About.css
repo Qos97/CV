@@ -95,6 +95,13 @@
 
 .about__contact-link svg { flex-shrink: 0; }
 
+.about__contact-card .btn {
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.about__contact-link + .btn { margin-top: 16px; }
+
 .about__contact-link:hover { color: var(--navy); }
 
 @media (max-width: 900px) {

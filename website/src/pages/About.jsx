@@ -22,15 +22,15 @@ export default function About() {
 
             <div className="about__meta">
               <div className="about__meta-item">
-                <MapPin className="about__meta-icon" size={16} role="img" aria-label="Location" />
+                <MapPin className="about__meta-icon" size={16} aria-hidden="true" />
                 <span>Barreiro, Setúbal, Portugal</span>
               </div>
               <div className="about__meta-item">
-                <Globe className="about__meta-icon" size={16} role="img" aria-label="Languages" />
+                <Globe className="about__meta-icon" size={16} aria-hidden="true" />
                 <span>{t.metaLang}</span>
               </div>
               <div className="about__meta-item">
-                <GraduationCap className="about__meta-icon" size={16} role="img" aria-label="Education" />
+                <GraduationCap className="about__meta-icon" size={16} aria-hidden="true" />
                 <span>{t.metaEdu}</span>
               </div>
             </div>
@@ -51,10 +51,10 @@ export default function About() {
               <a href="https://linkedin.com/in/fgfernandes97" target="_blank" rel="noreferrer" className="about__contact-link">
                 <LinkedinIcon size={16} /> linkedin.com/in/fgfernandes97
               </a>
-              <a href="/CV_Filipe_Fernandes_EN.pdf" download className="btn btn-primary" style={{ marginTop: 16, justifyContent: 'center' }}>
+              <a href={`${import.meta.env.BASE_URL}CV_Filipe_Fernandes_EN.pdf`} download className="btn btn-primary">
                 <Download size={16} aria-hidden="true" /> {t.downloadEN}
               </a>
-              <a href="/CV_Filipe_Fernandes_PT.pdf" download className="btn btn-outline" style={{ marginTop: 8, justifyContent: 'center' }}>
+              <a href={`${import.meta.env.BASE_URL}CV_Filipe_Fernandes_PT.pdf`} download className="btn btn-outline">
                 <Download size={16} aria-hidden="true" /> {t.downloadPT}
               </a>
             </div>

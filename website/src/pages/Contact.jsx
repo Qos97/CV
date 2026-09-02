@@ -50,10 +50,10 @@ export default function Contact() {
               <div>
                 <div className="contact-card__label">{t.cvLabel}</div>
                 <div className="contact__cv-links">
-                  <a href="/CV_Filipe_Fernandes_EN.pdf" download className="btn btn-primary">
+                  <a href={`${import.meta.env.BASE_URL}CV_Filipe_Fernandes_EN.pdf`} download className="btn btn-primary">
                     <Download size={16} aria-hidden="true" /> {t.cvEN}
                   </a>
-                  <a href="/CV_Filipe_Fernandes_PT.pdf" download className="btn btn-outline">
+                  <a href={`${import.meta.env.BASE_URL}CV_Filipe_Fernandes_PT.pdf`} download className="btn btn-outline">
                     <Download size={16} aria-hidden="true" /> {t.cvPT}
                   </a>
                 </div>

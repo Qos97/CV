@@ -54,7 +54,7 @@ export default function Certifications() {
                   {tr.platform}
                   {tr.verifyUrl && (
                     <a href={tr.verifyUrl} target="_blank" rel="noreferrer" className="training-item__verify">
-                      Verify <ExternalLink size={12} aria-hidden="true" />
+                      {t.verifyLabel} <ExternalLink size={12} aria-hidden="true" />
                     </a>
                   )}
                 </div>
