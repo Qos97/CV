@@ -43,12 +43,11 @@ STATIC = {
         'sum_label':  'Professional Summary',
         'exp_label':  'Professional Experience',
         'sk_label':   'Technical Skills',
+        'cert_label': 'Certifications & Training',
         'dev_label':  'Professional Development',
         'edu_label':  'Education',
         'lang_label': 'Languages',
         'dev': [
-            ('Continuous Learning',
-             '— Networking, Fortinet, and Security courses (Udemy / Pluralsight / Coursera)'),
             ('Personal Homelab',
              '— Proxmox VE hypervisor hosting Linux and Windows VMs; Docker-based self-hosted services '
              'for testing infrastructure patterns, automation playbooks, and monitoring stacks in a '
@@ -64,12 +63,11 @@ STATIC = {
         'sum_label':  'Resumo Profissional',
         'exp_label':  'Experiência Profissional',
         'sk_label':   'Competências Técnicas',
+        'cert_label': 'Certificações & Formação',
         'dev_label':  'Desenvolvimento Profissional',
-        'edu_label':  'Formação',
+        'edu_label':  'Formação Académica',
         'lang_label': 'Idiomas',
         'dev': [
-            ('Aprendizagem Contínua',
-             '— Cursos de Redes, Fortinet e Segurança (Udemy / Pluralsight / Coursera)'),
             ('Homelab Pessoal',
              '— Hypervisor Proxmox VE com VMs Linux e Windows; serviços self-hosted em Docker '
              'para teste de padrões de infraestrutura, playbooks de automação e stacks de '
@@ -190,7 +188,7 @@ def add_section_header(doc, text: str):
     run.font.size  = Pt(10)
     _set_color(run, NAVY)
     _bottom_border(para, NAVY)
-    _spacing(para, before=200, after=100)
+    _spacing(para, before=170, after=90)
     return para
 
 def add_role(doc, company, title, period, location):
@@ -228,6 +226,58 @@ def add_skill_line(doc, category, items_list):
     _set_color(r_items, DARK)
     _spacing(para, after=44)
 
+def add_training_paragraph(doc, lines):
+    """Renders all training entries as one flowing, wrapped paragraph
+    (same visual density as the skills lines) instead of one line each —
+    keeps the CV to 2 pages."""
+    para = doc.add_paragraph()
+    for i, (name, platform, date_str, hours_str) in enumerate(lines):
+        r_name = para.add_run(name)
+        r_name.bold = True; r_name.font.name = 'Calibri'; r_name.font.size = Pt(9.5)
+        _set_color(r_name, DARK)
+        meta = f' ({platform}, {date_str}, {hours_str})' if platform else f' ({date_str}, {hours_str})'
+        r_meta = para.add_run(meta)
+        r_meta.font.name = 'Calibri'; r_meta.font.size = Pt(9.5)
+        _set_color(r_meta, GRAY)
+        if i < len(lines) - 1:
+            r_sep = para.add_run('   ·   ')
+            r_sep.font.name = 'Calibri'; r_sep.font.size = Pt(9.5)
+            _set_color(r_sep, LIGHT)
+    _spacing(para, before=60, after=60)
+
+# ── CV training selection ──────────────────────────────────────────────────────
+# Only entries flagged "cv": true in content.json appear on the generated CV
+# (the full list stays on the website's Certifications page). Multi-part
+# courses ("... — Part 1/2" / "... — Parte 1/2") are merged into one line.
+
+_PART_RE = re.compile(r'^(.*?)\s*[—-]\s*Parte?\s*\d+/\d+$')
+
+def cv_training_lines(training: list) -> list:
+    groups, order = {}, []
+    for t in training:
+        if not t.get('cv'):
+            continue
+        m = _PART_RE.match(t['name'])
+        base = m.group(1) if m else t['name']
+        if base not in groups:
+            groups[base] = {'platform': t['platform'], 'dates': [], 'hours': 0.0}
+            order.append(base)
+        g = groups[base]
+        g['dates'].append(t['date'])
+        try:
+            g['hours'] += float(t['hours'].rstrip('h'))
+        except ValueError:
+            pass
+
+    lines = []
+    for base in order:
+        g = groups[base]
+        name = f'{base} ({len(g["dates"])} parts)' if len(g['dates']) > 1 else base
+        date_str = g['dates'][0] if len(g['dates']) == 1 else f'{g["dates"][-1]} – {g["dates"][0]}'
+        hours_str = f'{g["hours"]:g}h'
+        lines.append((name, g['platform'], date_str, hours_str))
+    return lines
+
 # ── Main document builder ─────────────────────────────────────────────────────
 
 def build_cv(lang: str, content: dict) -> Document:
@@ -240,8 +290,8 @@ def build_cv(lang: str, content: dict) -> Document:
     section = doc.sections[0]
     section.page_width  = Twips(11906)
     section.page_height = Twips(16838)
-    section.top_margin    = Twips(900)
-    section.bottom_margin = Twips(900)
+    section.top_margin    = Twips(760)
+    section.bottom_margin = Twips(760)
     section.left_margin   = Twips(1000)
     section.right_margin  = Twips(1000)
 
@@ -298,6 +348,12 @@ def build_cv(lang: str, content: dict) -> Document:
     add_section_header(doc, st['sk_label'])
     for group in c['skills']['groups']:
         add_skill_line(doc, group['category'], group['items'])
+
+    # ── CERTIFICATIONS & TRAINING ─────────────────────────────────────────────
+    training_lines = cv_training_lines(c['certifications']['training'])
+    if training_lines:
+        add_section_header(doc, st['cert_label'])
+        add_training_paragraph(doc, training_lines)
 
     # ── PROFESSIONAL DEVELOPMENT ──────────────────────────────────────────────
     add_section_header(doc, st['dev_label'])

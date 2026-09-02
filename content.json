@@ -583,7 +583,8 @@
             "DevOps",
             "Containers"
           ],
-          "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d"
+          "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d",
+          "cv": true
         },
         {
           "name": "Docker for the Absolute Beginner - Hands On - DevOps",
@@ -595,7 +596,8 @@
             "DevOps",
             "Containers"
           ],
-          "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732dd0"
+          "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732dd0",
+          "cv": true
         },
         {
           "name": "FortiGate NSE4 v7 Training — Part 2/2",
@@ -607,7 +609,8 @@
             "FortiGate",
             "Security"
           ],
-          "verifyUrl": "https://ude.my/UC-e93c9bac-4d4e-4bba-86b0-e39e61cccf1f"
+          "verifyUrl": "https://ude.my/UC-e93c9bac-4d4e-4bba-86b0-e39e61cccf1f",
+          "cv": true
         },
         {
           "name": "FortiGate NSE4 v7 Training — Part 1/2",
@@ -619,7 +622,8 @@
             "FortiGate",
             "Security"
           ],
-          "verifyUrl": "https://ude.my/UC-ea12850d-18e6-49f6-8849-111d266747d6"
+          "verifyUrl": "https://ude.my/UC-ea12850d-18e6-49f6-8849-111d266747d6",
+          "cv": true
         },
         {
           "name": "Occupational Health & Safety Management",
@@ -650,7 +654,8 @@
             "Security",
             "Cybersecurity"
           ],
-          "verifyUrl": "https://ude.my/UC-547952a2-33fa-49fc-8572-d6f73cde4a78"
+          "verifyUrl": "https://ude.my/UC-547952a2-33fa-49fc-8572-d6f73cde4a78",
+          "cv": true
         },
         {
           "name": "Generative AI",
@@ -660,7 +665,8 @@
           "tags": [
             "AI",
             "Machine Learning"
-          ]
+          ],
+          "cv": true
         },
         {
           "name": "European First Aid Course",
@@ -1283,7 +1289,8 @@
             "DevOps",
             "Containers"
           ],
-          "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d"
+          "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d",
+          "cv": true
         },
         {
           "name": "Docker para Principiantes - Hands On - DevOps",
@@ -1295,7 +1302,8 @@
             "DevOps",
             "Containers"
           ],
-          "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732dd0"
+          "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732dd0",
+          "cv": true
         },
         {
           "name": "FortiGate NSE4 v7 Training — Parte 2/2",
@@ -1307,7 +1315,8 @@
             "FortiGate",
             "Segurança"
           ],
-          "verifyUrl": "https://ude.my/UC-e93c9bac-4d4e-4bba-86b0-e39e61cccf1f"
+          "verifyUrl": "https://ude.my/UC-e93c9bac-4d4e-4bba-86b0-e39e61cccf1f",
+          "cv": true
         },
         {
           "name": "FortiGate NSE4 v7 Training — Parte 1/2",
@@ -1319,7 +1328,8 @@
             "FortiGate",
             "Segurança"
           ],
-          "verifyUrl": "https://ude.my/UC-ea12850d-18e6-49f6-8849-111d266747d6"
+          "verifyUrl": "https://ude.my/UC-ea12850d-18e6-49f6-8849-111d266747d6",
+          "cv": true
         },
         {
           "name": "Gestão de Segurança e Saúde no Trabalho",
@@ -1350,7 +1360,8 @@
             "Segurança",
             "Cibersegurança"
           ],
-          "verifyUrl": "https://ude.my/UC-547952a2-33fa-49fc-8572-d6f73cde4a78"
+          "verifyUrl": "https://ude.my/UC-547952a2-33fa-49fc-8572-d6f73cde4a78",
+          "cv": true
         },
         {
           "name": "Inteligência Artificial Generativa",
@@ -1360,7 +1371,8 @@
           "tags": [
             "IA",
             "Machine Learning"
-          ]
+          ],
+          "cv": true
         },
         {
           "name": "Curso Europeu de Socorrismo",
