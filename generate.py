@@ -373,10 +373,11 @@ def step_validate(content_path: Path) -> dict:
         sys.exit(1)
 
     exp_en  = len(data['en']['experience']['jobs'])
-    proj_en = len(data['en']['projects']['list'])
+    proj_en = len(data['en']['projects']['workList']) + len(data['en']['projects']['personalList'])
+    proj_pt = len(data['pt']['projects']['workList']) + len(data['pt']['projects']['personalList'])
     print('✓ content.json valid')
     print(f'  EN: {exp_en} jobs, {proj_en} projects')
-    print(f'  PT: {len(data["pt"]["experience"]["jobs"])} jobs, {len(data["pt"]["projects"]["list"])} projects')
+    print(f'  PT: {len(data["pt"]["experience"]["jobs"])} jobs, {proj_pt} projects')
     return data
 
 

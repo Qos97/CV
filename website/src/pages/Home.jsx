@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { MapPin, ArrowRight, Download, Server, Gauge, Shield, Bot } from 'lucide-react'
 import { useLang } from '../LanguageContext'
 import content from '../content.json'
 import './Home.css'
@@ -9,6 +10,8 @@ const TECH = [
   'Zabbix', 'Prometheus', 'Grafana',
   'Microsoft 365', 'Azure AD', 'PowerShell', 'Ansible',
 ]
+
+const HIGHLIGHT_ICONS = { server: Server, gauge: Gauge, shield: Shield, bot: Bot }
 
 export default function Home() {
   const { lang } = useLang()
@@ -26,14 +29,20 @@ export default function Home() {
           <h1 className="hero__name">Filipe Fernandes</h1>
           <p className="hero__title">{t.title}</p>
           <p className="hero__sub">{t.sub}</p>
-          <p className="hero__location">{t.location}</p>
+          <p className="hero__location">
+            <MapPin size={14} aria-hidden="true" /> {t.location}
+          </p>
           <div className="hero__actions">
-            <Link to="/experience" className="btn btn-primary">{t.viewExp}</Link>
+            <Link to="/experience" className="btn btn-primary">
+              {t.viewExp} <ArrowRight size={16} aria-hidden="true" />
+            </Link>
             <a
               href={lang === 'en' ? '/CV_Filipe_Fernandes_EN.pdf' : '/CV_Filipe_Fernandes_PT.pdf'}
               download
               className="btn btn-outline"
-            >{t.downloadCV}</a>
+            >
+              <Download size={16} aria-hidden="true" /> {t.downloadCV}
+            </a>
           </div>
         </div>
       </section>
@@ -41,13 +50,16 @@ export default function Home() {
       <section className="section section--alt highlights">
         <div className="container">
           <div className="highlights__grid">
-            {t.highlights.map(h => (
-              <div key={h.label} className="highlight-card">
-                <span className="highlight-card__icon">{h.icon}</span>
-                <strong className="highlight-card__label">{h.label}</strong>
-                <span className="highlight-card__sub">{h.sub}</span>
-              </div>
-            ))}
+            {t.highlights.map(h => {
+              const Icon = HIGHLIGHT_ICONS[h.icon]
+              return (
+                <div key={h.label} className="highlight-card">
+                  <Icon className="highlight-card__icon" size={28} aria-hidden="true" />
+                  <strong className="highlight-card__label">{h.label}</strong>
+                  <span className="highlight-card__sub">{h.sub}</span>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>

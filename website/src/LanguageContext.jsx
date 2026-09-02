@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState, useEffect } from 'react'
 
 const LanguageContext = createContext()
 
@@ -12,6 +12,10 @@ function getSavedLang() {
 
 export function LanguageProvider({ children }) {
   const [lang, setLangState] = useState(getSavedLang)
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+  }, [lang])
 
   function setLang(l) {
     try { localStorage.setItem('lang', l) } catch {}

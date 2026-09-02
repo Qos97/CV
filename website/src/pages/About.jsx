@@ -1,3 +1,5 @@
+import { MapPin, Globe, GraduationCap, Download } from 'lucide-react'
+import LinkedinIcon from '../components/LinkedinIcon'
 import { useLang } from '../LanguageContext'
 import content from '../content.json'
 import './About.css'
@@ -20,15 +22,15 @@ export default function About() {
 
             <div className="about__meta">
               <div className="about__meta-item">
-                <span className="about__meta-icon" role="img" aria-label="Location">📍</span>
+                <MapPin className="about__meta-icon" size={16} role="img" aria-label="Location" />
                 <span>Barreiro, Setúbal, Portugal</span>
               </div>
               <div className="about__meta-item">
-                <span className="about__meta-icon" role="img" aria-label="Languages">🌐</span>
+                <Globe className="about__meta-icon" size={16} role="img" aria-label="Languages" />
                 <span>{t.metaLang}</span>
               </div>
               <div className="about__meta-item">
-                <span className="about__meta-icon" role="img" aria-label="Education">🎓</span>
+                <GraduationCap className="about__meta-icon" size={16} role="img" aria-label="Education" />
                 <span>{t.metaEdu}</span>
               </div>
             </div>
@@ -47,13 +49,13 @@ export default function About() {
             <div className="about__contact-card">
               <h3>{t.contactTitle}</h3>
               <a href="https://linkedin.com/in/fgfernandes97" target="_blank" rel="noreferrer" className="about__contact-link">
-                ⟁ linkedin.com/in/fgfernandes97
+                <LinkedinIcon size={16} /> linkedin.com/in/fgfernandes97
               </a>
               <a href="/CV_Filipe_Fernandes_EN.pdf" download className="btn btn-primary" style={{ marginTop: 16, justifyContent: 'center' }}>
-                {t.downloadEN}
+                <Download size={16} aria-hidden="true" /> {t.downloadEN}
               </a>
               <a href="/CV_Filipe_Fernandes_PT.pdf" download className="btn btn-outline" style={{ marginTop: 8, justifyContent: 'center' }}>
-                {t.downloadPT}
+                <Download size={16} aria-hidden="true" /> {t.downloadPT}
               </a>
             </div>
           </div>

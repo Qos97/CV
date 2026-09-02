@@ -1,3 +1,4 @@
+import { Info } from 'lucide-react'
 import { useLang } from '../LanguageContext'
 import content from '../content.json'
 import './Projects.css'
@@ -42,7 +43,7 @@ export default function Projects() {
         <ProjectGrid list={t.personalList} />
 
         <div className="projects-note">
-          <span>💡</span>
+          <Info size={18} aria-hidden="true" />
           <span>{t.note}</span>
         </div>
       </div>

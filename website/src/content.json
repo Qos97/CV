@@ -1,5 +1,9 @@
 {
   "en": {
+    "seo": {
+      "title": "Filipe Fernandes – System Administrator",
+      "description": "8+ years in enterprise IT infrastructure. Kubernetes, Ceph, Fortinet, Microsoft 365, VMware."
+    },
     "nav": {
       "about": "About",
       "experience": "Experience",
@@ -7,33 +11,33 @@
       "projects": "Projects",
       "certifications": "Certifications",
       "contact": "Contact",
-      "download": "↓ CV"
+      "download": "CV"
     },
     "home": {
       "badge": "",
       "title": "System Administrator",
       "sub": "Infrastructure & Security · Automation · Virtualization",
-      "location": "📍 Lisboa, Portugal",
-      "viewExp": "View Experience →",
-      "downloadCV": "↓ Download CV",
+      "location": "Lisboa, Portugal",
+      "viewExp": "View Experience",
+      "downloadCV": "Download CV",
       "highlights": [
         {
-          "icon": "🖥",
+          "icon": "server",
           "label": "8+ Years",
           "sub": "Enterprise IT"
         },
         {
-          "icon": "⚙️",
+          "icon": "gauge",
           "label": "~100 Servers",
           "sub": "Under management"
         },
         {
-          "icon": "🔒",
+          "icon": "shield",
           "label": "Security First",
           "sub": "Hardening & VPNs"
         },
         {
-          "icon": "🤖",
+          "icon": "bot",
           "label": "Automation",
           "sub": "Ansible · PowerShell"
         }
@@ -75,8 +79,8 @@
       "metaLang": "Portuguese (Native) · English (Professional)",
       "metaEdu": "Técnico de Programação e Gestão de Sistemas Informáticos — Escola Secundária Augusto Cabrita (2014–2017)",
       "contactTitle": "Contact",
-      "downloadEN": "↓ Download CV (EN)",
-      "downloadPT": "↓ Download CV (PT)",
+      "downloadEN": "Download CV (EN)",
+      "downloadPT": "Download CV (PT)",
       "cv_summary": "System Administrator with 8+ years of progressive experience in enterprise IT infrastructure. Currently managing a hybrid environment of ~100 servers and ~100 users at Sendit, encompassing Kubernetes, Ceph distributed storage, Docker, and Fortinet/WatchGuard security stacks. At Viagens Abreu, led a full end-to-end Microsoft Intune implementation from scratch (100–500 Windows devices), covering Autopilot enrollment, compliance policies, Conditional Access, application deployment, and GPO-to-Intune migration. Strong focus on automation (Ansible, PowerShell, Python), observability (Zabbix, Prometheus, Grafana), security hardening, and ITIL-aligned change management practices."
     },
     "experience": {
@@ -214,7 +218,7 @@
       "groups": [
         {
           "category": "OS & Servers",
-          "icon": "🖥",
+          "icon": "server",
           "items": [
             "Windows Server 2012–2022",
             "Linux Ubuntu",
@@ -224,7 +228,7 @@
         },
         {
           "category": "Virtualization & Containers",
-          "icon": "📦",
+          "icon": "package",
           "items": [
             "VMware vSphere",
             "Kubernetes",
@@ -233,7 +237,7 @@
         },
         {
           "category": "Storage",
-          "icon": "💾",
+          "icon": "storage",
           "items": [
             "Ceph Distributed Storage",
             "Windows File Server"
@@ -241,7 +245,7 @@
         },
         {
           "category": "Microsoft Cloud",
-          "icon": "☁️",
+          "icon": "cloud",
           "items": [
             "Azure AD (Hybrid)",
             "Microsoft Intune",
@@ -254,7 +258,7 @@
         },
         {
           "category": "Automation & Scripting",
-          "icon": "⚙️",
+          "icon": "automation",
           "items": [
             "PowerShell",
             "Bash",
@@ -265,7 +269,7 @@
         },
         {
           "category": "Networking & Security",
-          "icon": "🔒",
+          "icon": "network",
           "items": [
             "Fortinet FortiGate",
             "FortiADC",
@@ -281,7 +285,7 @@
         },
         {
           "category": "Monitoring & Observability",
-          "icon": "📊",
+          "icon": "monitoring",
           "items": [
             "Zabbix",
             "Prometheus",
@@ -290,7 +294,7 @@
         },
         {
           "category": "Infrastructure Services",
-          "icon": "🏗",
+          "icon": "infra",
           "items": [
             "Active Directory",
             "Group Policy (GPO)",
@@ -300,7 +304,7 @@
         },
         {
           "category": "Security & Compliance",
-          "icon": "🛡",
+          "icon": "compliance",
           "items": [
             "OpenVAS",
             "Security Hardening",
@@ -310,7 +314,7 @@
         },
         {
           "category": "Practices & Methodologies",
-          "icon": "📋",
+          "icon": "practices",
           "items": [
             "ITIL (Incident/Change/Problem Mgmt)",
             "Technical Documentation",
@@ -323,7 +327,7 @@
         },
         {
           "category": "AI & Productivity",
-          "icon": "🤖",
+          "icon": "ai",
           "items": [
             "Claude",
             "ChatGPT",
@@ -568,11 +572,27 @@
       "trainingSubtitle": "Training & Courses",
       "training": [
         {
+          "name": "Kubernetes for the Absolute Beginners - Hands-on",
+          "platform": "Udemy",
+          "date": "Sep 2026",
+          "hours": "6.5h",
+          "tags": [
+            "Kubernetes",
+            "DevOps",
+            "Containers"
+          ],
+          "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d"
+        },
+        {
           "name": "Docker for the Absolute Beginner - Hands On - DevOps",
           "platform": "Udemy",
           "date": "Apr 2026",
           "hours": "4.5h",
-          "tags": ["Docker", "DevOps", "Containers"],
+          "tags": [
+            "Docker",
+            "DevOps",
+            "Containers"
+          ],
           "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732ddO"
         },
         {
@@ -580,7 +600,11 @@
           "platform": "Udemy",
           "date": "Feb 2026",
           "hours": "15.5h",
-          "tags": ["Fortinet", "FortiGate", "Security"],
+          "tags": [
+            "Fortinet",
+            "FortiGate",
+            "Security"
+          ],
           "verifyUrl": "https://ude.my/UC-e93c9bac-4d4e-4bba-86b0-e39e61cccf1f"
         },
         {
@@ -588,7 +612,11 @@
           "platform": "Udemy",
           "date": "Oct 2025",
           "hours": "18.5h",
-          "tags": ["Fortinet", "FortiGate", "Security"],
+          "tags": [
+            "Fortinet",
+            "FortiGate",
+            "Security"
+          ],
           "verifyUrl": "https://ude.my/UC-ea12850d-18e6-49f6-8849-111d266747d6"
         },
         {
@@ -596,21 +624,30 @@
           "platform": "Centralmed",
           "date": "Sep 2025",
           "hours": "7h",
-          "tags": ["Compliance", "Health & Safety"]
+          "tags": [
+            "Compliance",
+            "Health & Safety"
+          ]
         },
         {
           "name": "Business Units Onboarding",
           "platform": "Sendit & Go4mobility",
           "date": "Feb 2025",
           "hours": "6h",
-          "tags": ["Business", "Internal"]
+          "tags": [
+            "Business",
+            "Internal"
+          ]
         },
         {
           "name": "Security Awareness Training",
           "platform": "Udemy",
           "date": "Jan 2025",
           "hours": "2h",
-          "tags": ["Security", "Cybersecurity"],
+          "tags": [
+            "Security",
+            "Cybersecurity"
+          ],
           "verifyUrl": "https://ude.my/UC-547952a2-33fa-49fc-8572-d6f73cde4a78"
         },
         {
@@ -618,21 +655,30 @@
           "platform": "Wikibrains",
           "date": "Dec 2024",
           "hours": "16h",
-          "tags": ["AI", "Machine Learning"]
+          "tags": [
+            "AI",
+            "Machine Learning"
+          ]
         },
         {
           "name": "European First Aid Course",
           "platform": "",
           "date": "Oct 2024",
           "hours": "12h",
-          "tags": ["First Aid", "Health & Safety"]
+          "tags": [
+            "First Aid",
+            "Health & Safety"
+          ]
         },
         {
           "name": "Forklift Operation Professional Certificate",
           "platform": "",
           "date": "Feb 2019",
           "hours": "8h",
-          "tags": ["Forklift", "Safety"]
+          "tags": [
+            "Forklift",
+            "Safety"
+          ]
         }
       ]
     },
@@ -641,17 +687,21 @@
       "title": "Contact",
       "intro1": "Feel free to reach out for professional opportunities, technical discussions, or collaboration on infrastructure and security topics.",
       "intro2": "I'm based in Lisboa, Portugal and open to opportunities in the Lisbon area.",
-      "emailAction": "Send a message →",
-      "linkedinAction": "View profile →",
+      "emailAction": "Send a message",
+      "linkedinAction": "View profile",
       "locationLabel": "Location",
       "locationValue": "Lisboa, Portugal",
       "locationAction": "",
       "cvLabel": "Curriculum Vitae",
-      "cvEN": "↓ English CV",
-      "cvPT": "↓ Portuguese CV"
+      "cvEN": "English CV",
+      "cvPT": "Portuguese CV"
     }
   },
   "pt": {
+    "seo": {
+      "title": "Filipe Fernandes – Administrador de Sistemas",
+      "description": "Mais de 8 anos em infraestrutura de TI enterprise. Kubernetes, Ceph, Fortinet, Microsoft 365, VMware."
+    },
     "nav": {
       "about": "Sobre",
       "experience": "Experiência",
@@ -659,33 +709,33 @@
       "projects": "Projetos",
       "certifications": "Certificações",
       "contact": "Contacto",
-      "download": "↓ CV"
+      "download": "CV"
     },
     "home": {
       "badge": "",
       "title": "Administrador de Sistemas",
       "sub": "Infraestrutura & Segurança · Automação · Virtualização",
-      "location": "📍 Lisboa, Portugal",
-      "viewExp": "Ver Experiência →",
-      "downloadCV": "↓ Download CV",
+      "location": "Lisboa, Portugal",
+      "viewExp": "Ver Experiência",
+      "downloadCV": "Download CV",
       "highlights": [
         {
-          "icon": "🖥",
+          "icon": "server",
           "label": "8+ Anos",
           "sub": "IT Enterprise"
         },
         {
-          "icon": "⚙️",
+          "icon": "gauge",
           "label": "~100 Servidores",
           "sub": "Sob gestão"
         },
         {
-          "icon": "🔒",
+          "icon": "shield",
           "label": "Segurança",
           "sub": "Hardening & VPNs"
         },
         {
-          "icon": "🤖",
+          "icon": "bot",
           "label": "Automação",
           "sub": "Ansible · PowerShell"
         }
@@ -727,8 +777,8 @@
       "metaLang": "Português (Nativo) · Inglês (Profissional)",
       "metaEdu": "Técnico de Programação e Gestão de Sistemas Informáticos — Escola Secundária Augusto Cabrita (2014–2017)",
       "contactTitle": "Contacto",
-      "downloadEN": "↓ Download CV (EN)",
-      "downloadPT": "↓ Download CV (PT)",
+      "downloadEN": "Download CV (EN)",
+      "downloadPT": "Download CV (PT)",
       "cv_summary": "Administrador de Sistemas com mais de 8 anos de experiência progressiva em infraestrutura de TI enterprise. Atualmente a gerir um ambiente híbrido com ~100 servidores e ~100 utilizadores na Sendit, integrando Kubernetes, armazenamento distribuído Ceph, Docker e stacks de segurança Fortinet/WatchGuard. Na Viagens Abreu, liderou a implementação completa do Microsoft Intune de raiz (100–500 dispositivos Windows), abrangendo Autopilot, políticas de conformidade, Conditional Access, deployment de aplicações e migração GPO→Intune. Forte foco em automação (Ansible, PowerShell, Python), observabilidade (Zabbix, Prometheus, Grafana), hardening de segurança e práticas de change management ITIL."
     },
     "experience": {
@@ -866,7 +916,7 @@
       "groups": [
         {
           "category": "SO & Servidores",
-          "icon": "🖥",
+          "icon": "server",
           "items": [
             "Windows Server 2012–2022",
             "Linux Ubuntu",
@@ -876,7 +926,7 @@
         },
         {
           "category": "Virtualização & Containers",
-          "icon": "📦",
+          "icon": "package",
           "items": [
             "VMware vSphere",
             "Kubernetes",
@@ -885,7 +935,7 @@
         },
         {
           "category": "Armazenamento",
-          "icon": "💾",
+          "icon": "storage",
           "items": [
             "Ceph Distributed Storage",
             "Windows File Server"
@@ -893,7 +943,7 @@
         },
         {
           "category": "Microsoft Cloud",
-          "icon": "☁️",
+          "icon": "cloud",
           "items": [
             "Azure AD (Hybrid)",
             "Microsoft Intune",
@@ -906,7 +956,7 @@
         },
         {
           "category": "Automação & Scripting",
-          "icon": "⚙️",
+          "icon": "automation",
           "items": [
             "PowerShell",
             "Bash",
@@ -917,7 +967,7 @@
         },
         {
           "category": "Redes & Segurança",
-          "icon": "🔒",
+          "icon": "network",
           "items": [
             "Fortinet FortiGate",
             "FortiADC",
@@ -933,7 +983,7 @@
         },
         {
           "category": "Monitorização & Observabilidade",
-          "icon": "📊",
+          "icon": "monitoring",
           "items": [
             "Zabbix",
             "Prometheus",
@@ -942,7 +992,7 @@
         },
         {
           "category": "Serviços de Infraestrutura",
-          "icon": "🏗",
+          "icon": "infra",
           "items": [
             "Active Directory",
             "Group Policy (GPO)",
@@ -952,7 +1002,7 @@
         },
         {
           "category": "Segurança & Compliance",
-          "icon": "🛡",
+          "icon": "compliance",
           "items": [
             "OpenVAS",
             "Security Hardening",
@@ -962,7 +1012,7 @@
         },
         {
           "category": "Práticas & Metodologias",
-          "icon": "📋",
+          "icon": "practices",
           "items": [
             "ITIL (Gestão de Incidentes/Mudanças/Problemas)",
             "Documentação Técnica",
@@ -975,7 +1025,7 @@
         },
         {
           "category": "IA & Produtividade",
-          "icon": "🤖",
+          "icon": "ai",
           "items": [
             "Claude",
             "ChatGPT",
@@ -1220,11 +1270,27 @@
       "trainingSubtitle": "Formações e Cursos",
       "training": [
         {
+          "name": "Kubernetes for the Absolute Beginners - Hands-on",
+          "platform": "Udemy",
+          "date": "Set 2026",
+          "hours": "6.5h",
+          "tags": [
+            "Kubernetes",
+            "DevOps",
+            "Containers"
+          ],
+          "verifyUrl": "https://ude.my/UC-2b41ff71-ec15-4f8d-b35f-10fa37dd658d"
+        },
+        {
           "name": "Docker para Principiantes - Hands On - DevOps",
           "platform": "Udemy",
           "date": "Abr 2026",
           "hours": "4.5h",
-          "tags": ["Docker", "DevOps", "Containers"],
+          "tags": [
+            "Docker",
+            "DevOps",
+            "Containers"
+          ],
           "verifyUrl": "https://ude.my/UC-5380f324-51d3-43a2-99e7-7cb00f732ddO"
         },
         {
@@ -1232,7 +1298,11 @@
           "platform": "Udemy",
           "date": "Fev 2026",
           "hours": "15.5h",
-          "tags": ["Fortinet", "FortiGate", "Segurança"],
+          "tags": [
+            "Fortinet",
+            "FortiGate",
+            "Segurança"
+          ],
           "verifyUrl": "https://ude.my/UC-e93c9bac-4d4e-4bba-86b0-e39e61cccf1f"
         },
         {
@@ -1240,7 +1310,11 @@
           "platform": "Udemy",
           "date": "Out 2025",
           "hours": "18.5h",
-          "tags": ["Fortinet", "FortiGate", "Segurança"],
+          "tags": [
+            "Fortinet",
+            "FortiGate",
+            "Segurança"
+          ],
           "verifyUrl": "https://ude.my/UC-ea12850d-18e6-49f6-8849-111d266747d6"
         },
         {
@@ -1248,21 +1322,30 @@
           "platform": "Centralmed",
           "date": "Set 2025",
           "hours": "7h",
-          "tags": ["Conformidade", "Saúde e Segurança"]
+          "tags": [
+            "Conformidade",
+            "Saúde e Segurança"
+          ]
         },
         {
           "name": "Onboarding Unidades de Negócio",
           "platform": "Sendit & Go4mobility",
           "date": "Fev 2025",
           "hours": "6h",
-          "tags": ["Negócio", "Interno"]
+          "tags": [
+            "Negócio",
+            "Interno"
+          ]
         },
         {
           "name": "Formação em Segurança Informática",
           "platform": "Udemy",
           "date": "Jan 2025",
           "hours": "2h",
-          "tags": ["Segurança", "Cibersegurança"],
+          "tags": [
+            "Segurança",
+            "Cibersegurança"
+          ],
           "verifyUrl": "https://ude.my/UC-547952a2-33fa-49fc-8572-d6f73cde4a78"
         },
         {
@@ -1270,21 +1353,30 @@
           "platform": "Wikibrains",
           "date": "Dez 2024",
           "hours": "16h",
-          "tags": ["IA", "Machine Learning"]
+          "tags": [
+            "IA",
+            "Machine Learning"
+          ]
         },
         {
           "name": "Curso Europeu de Socorrismo",
           "platform": "",
           "date": "Out 2024",
           "hours": "12h",
-          "tags": ["Primeiros Socorros", "Saúde e Segurança"]
+          "tags": [
+            "Primeiros Socorros",
+            "Saúde e Segurança"
+          ]
         },
         {
           "name": "Certificado de Formação Profissional de Manobração de Empilhadores",
           "platform": "",
           "date": "Fev 2019",
           "hours": "8h",
-          "tags": ["Empilhadores", "Segurança"]
+          "tags": [
+            "Empilhadores",
+            "Segurança"
+          ]
         }
       ]
     },
@@ -1293,14 +1385,14 @@
       "title": "Contacto",
       "intro1": "Não hesite em contactar para oportunidades profissionais, discussões técnicas ou colaboração em temas de infraestrutura e segurança.",
       "intro2": "Estou baseado em Lisboa, Portugal e disponível para oportunidades na área de Lisboa.",
-      "emailAction": "Enviar mensagem →",
-      "linkedinAction": "Ver perfil →",
+      "emailAction": "Enviar mensagem",
+      "linkedinAction": "Ver perfil",
       "locationLabel": "Localização",
       "locationValue": "Lisboa, Portugal",
       "locationAction": "",
       "cvLabel": "Curriculum Vitae",
-      "cvEN": "↓ CV em Inglês",
-      "cvPT": "↓ CV em Português"
+      "cvEN": "CV em Inglês",
+      "cvPT": "CV em Português"
     }
   }
 }

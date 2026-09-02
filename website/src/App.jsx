@@ -1,5 +1,6 @@
 import { Routes, Route, NavLink, useLocation } from 'react-router-dom'
 import { useState, useEffect, lazy, Suspense } from 'react'
+import { Download } from 'lucide-react'
 import { LanguageProvider, useLang } from './LanguageContext'
 import content from './content.json'
 import './App.css'
@@ -59,7 +60,7 @@ function Navbar() {
             download
             className="btn btn-primary navbar__cta"
           >
-            {labels.download}
+            <Download size={14} aria-hidden="true" /> {labels.download}
           </a>
           <div className="lang-toggle">
             <button
@@ -86,6 +87,27 @@ function Navbar() {
   )
 }
 
+function MetaSync() {
+  const { lang } = useLang()
+
+  useEffect(() => {
+    const seo = content[lang].seo
+    document.title = seo.title
+
+    const setMeta = (selector, value) => {
+      const el = document.querySelector(selector)
+      if (el) el.setAttribute('content', value)
+    }
+    setMeta('meta[name="description"]', seo.description)
+    setMeta('meta[property="og:title"]', seo.title)
+    setMeta('meta[property="og:description"]', seo.description)
+    setMeta('meta[name="twitter:title"]', seo.title)
+    setMeta('meta[name="twitter:description"]', seo.description)
+  }, [lang])
+
+  return null
+}
+
 function Footer() {
   return (
     <footer className="footer">
@@ -102,6 +124,7 @@ function Footer() {
 export default function App() {
   return (
     <LanguageProvider>
+      <MetaSync />
       <Navbar />
       <main style={{ paddingTop: 'var(--nav-h)' }}>
         <Suspense fallback={<div style={{ padding: '80px 0', textAlign: 'center' }} />}>

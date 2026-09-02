@@ -29,7 +29,7 @@
   color: var(--text-muted);
 }
 
-.about__meta-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+.about__meta-icon { color: var(--blue); flex-shrink: 0; margin-top: 1px; }
 
 /* Stats */
 .about__stats {
@@ -82,7 +82,9 @@
 }
 
 .about__contact-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 13px;
   color: var(--blue);
   text-decoration: none;
@@ -90,6 +92,8 @@
   word-break: break-all;
   transition: var(--transition);
 }
+
+.about__contact-link svg { flex-shrink: 0; }
 
 .about__contact-link:hover { color: var(--navy); }
 

@@ -107,6 +107,8 @@
   color: var(--text-muted);
 }
 
+.projects-note svg { flex-shrink: 0; color: var(--blue); }
+
 @media (max-width: 768px) {
   .projects-grid { grid-template-columns: 1fr; }
 }

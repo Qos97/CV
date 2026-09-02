@@ -1,3 +1,5 @@
+import { MapPin, FileText, Download } from 'lucide-react'
+import LinkedinIcon from '../components/LinkedinIcon'
 import { useLang } from '../LanguageContext'
 import content from '../content.json'
 import './Contact.css'
@@ -20,7 +22,9 @@ export default function Contact() {
 
           <div className="contact__cards">
             <a href="https://linkedin.com/in/fgfernandes97" target="_blank" rel="noreferrer" className="contact-card">
-              <div className="contact-card__icon contact-card__icon--blue">in</div>
+              <div className="contact-card__icon contact-card__icon--blue">
+                <LinkedinIcon size={20} />
+              </div>
               <div>
                 <div className="contact-card__label">LinkedIn</div>
                 <div className="contact-card__value">linkedin.com/in/fgfernandes97</div>
@@ -29,7 +33,9 @@ export default function Contact() {
             </a>
 
             <div className="contact-card contact-card--static">
-              <div className="contact-card__icon">📍</div>
+              <div className="contact-card__icon">
+                <MapPin size={20} aria-hidden="true" />
+              </div>
               <div>
                 <div className="contact-card__label">{t.locationLabel}</div>
                 <div className="contact-card__value">{t.locationValue}</div>
@@ -38,12 +44,18 @@ export default function Contact() {
             </div>
 
             <div className="contact-card contact-card--static">
-              <div className="contact-card__icon">📄</div>
+              <div className="contact-card__icon">
+                <FileText size={20} aria-hidden="true" />
+              </div>
               <div>
                 <div className="contact-card__label">{t.cvLabel}</div>
                 <div className="contact__cv-links">
-                  <a href="/CV_Filipe_Fernandes_EN.pdf" download className="btn btn-primary">{t.cvEN}</a>
-                  <a href="/CV_Filipe_Fernandes_PT.pdf" download className="btn btn-outline">{t.cvPT}</a>
+                  <a href="/CV_Filipe_Fernandes_EN.pdf" download className="btn btn-primary">
+                    <Download size={16} aria-hidden="true" /> {t.cvEN}
+                  </a>
+                  <a href="/CV_Filipe_Fernandes_PT.pdf" download className="btn btn-outline">
+                    <Download size={16} aria-hidden="true" /> {t.cvPT}
+                  </a>
                 </div>
               </div>
             </div>

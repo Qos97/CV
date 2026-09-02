@@ -1,3 +1,4 @@
+import { Info, ExternalLink } from 'lucide-react'
 import { useLang } from '../LanguageContext'
 import content from '../content.json'
 import './Certifications.css'
@@ -13,7 +14,7 @@ export default function Certifications() {
         <h1 className="section-title">{t.title}</h1>
 
         <div className="certs-note">
-          <span>ℹ️</span>
+          <Info size={18} aria-hidden="true" />
           <span>{t.note}</span>
         </div>
 
@@ -53,7 +54,7 @@ export default function Certifications() {
                   {tr.platform}
                   {tr.verifyUrl && (
                     <a href={tr.verifyUrl} target="_blank" rel="noreferrer" className="training-item__verify">
-                      Verify ↗
+                      Verify <ExternalLink size={12} aria-hidden="true" />
                     </a>
                   )}
                 </div>
